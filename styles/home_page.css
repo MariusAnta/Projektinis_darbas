@@ -1,0 +1,141 @@
+header {
+    display: flex;
+    position: absolute;
+    width: 1440px;
+    height: 700px;
+    margin: 0;
+    /* align-items: center; */
+    background-color: #014E56;
+    font-family: 'Livvic', sans-serif;
+}
+
+.container-header {
+    position: absolute;
+    display: flex;
+    justify-content: space-between ;
+    background-color: #014E56;
+    top: 250px;
+    right: 165px;
+    bottom: 250px;
+    left: 165px;
+}
+/* Big bold text  on your left */
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 635px;
+    height: 200px;
+    top: 250px;
+    right: 165px;
+    bottom: 250px;
+    left: 165px;   
+}
+
+    .left h1 {
+   margin: 0;
+    text-align: left;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 100px;
+    color: white;
+}
+.left h1:first-child{
+    display: inline-block;
+    width: fit-content;
+}
+
+.left span {
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 100px;
+    color: #f67e7e;
+}
+
+/* Right text */
+.right {
+    font-weight: 600;
+    font-style: normal;
+   max-width:  445px;
+    padding-top: 75px;
+    display: inline-block;
+    text-align: left;
+    /* height: 112px; */
+    top: 333px;
+    right: 165px;
+    bottom: 255px;
+    left: 830px;
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 28px;
+}
+
+
+/* Graphic header */
+.graphics-container {
+    
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+.graphic {
+    position: absolute;
+    overflow: hidden;
+   
+}
+.graphic-top-left {
+    top: 250px;
+    right: 1340px;
+    bottom: 250px;
+    left: 0;
+}
+.graphic-bottom-right {
+    width: 100px;
+    height: 44px;
+    top: 600px;
+    right: 423px;
+    bottom: 56px;
+    left: 917px;
+    z-index: 1;
+    
+}
+.graphic-grey-bottom-semioval {
+    top: 600px;
+    right: 323px;
+    bottom: 0;
+    left: 917px;
+    
+}
+.graphic-black-bottom-behind-red-semioval{
+    top: 600px;
+    right: 165px;
+    bottom: 0;
+    left: 1075px;
+    
+}
+.graphic-red-bottom-semioval{
+    top: 600px;
+    right: 189.49px;
+    bottom: 100px;
+    left: 1050.51px;
+    z-index: 1;
+}
+
+.graphic-rectangle {
+    flex-shrink: 0;
+    top: 600px;
+    right: 165px;
+    bottom: 57px;
+    left: 1232px;
+    width: 43px;
+    height: 43px;
+}
+
+.graphic-minirectangle{
+    top: 250px;
+    right: 560px;
+    bottom: 446px;
+    left: 830px;
+}
