@@ -1,0 +1,51 @@
+/* Build and manage section CSS */
+.build-container {
+  width: 1440px;
+  height: 684px;
+  background: #012f34;
+}
+
+.build-left-red-line {
+  background: #f67e7e;
+  width: 50px;
+  height: 4px;
+}
+
+.build-left-title {
+  width: 445px;
+}
+
+.build-left-title > h1 {
+  color: #fff;
+  font-family: Livvic;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.build-right-svg {
+  width: 72px;
+  height: 72px;
+}
+.build-right-info{
+    width: 445px;
+}
+
+.build-right-p-title {
+  color: #f67e7e;
+  font-family: Livvic;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 155.556% */
+}
+
+.build-right-p-info {
+  color: #fff;
+  font-family: Livvic;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px; /* 166.667% */
+}
