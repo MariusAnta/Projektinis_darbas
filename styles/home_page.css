@@ -1,10 +1,10 @@
 header {
     display: flex;
+    flex-wrap: wrap;
     position: absolute;
     width: 1440px;
     height: 700px;
     margin: 0;
-    /* align-items: center; */
     background-color: #014E56;
     font-family: 'Livvic', sans-serif;
 }
@@ -12,7 +12,11 @@ header {
 .container-header {
     position: absolute;
     display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    align-items: center;
     justify-content: space-between ;
+    gap: 5px;
     background-color: #014E56;
     top: 250px;
     right: 165px;
@@ -22,8 +26,9 @@ header {
 /* Big bold text  on your left */
 .left{
     display: flex;
+    flex: 1;
     flex-direction: column;
-    width: 635px;
+    max-width: 635px;
     height: 200px;
     top: 250px;
     right: 165px;
@@ -32,7 +37,8 @@ header {
 }
 
     .left h1 {
-   margin: 0;
+    margin: 0;
+    white-space: normal;
     text-align: left;
     font-size: 100px;
     font-weight: 700;
@@ -55,11 +61,12 @@ header {
 .right {
     font-weight: 600;
     font-style: normal;
-   max-width:  445px;
+    max-width:  445px;
     padding-top: 75px;
     display: inline-block;
     text-align: left;
-    /* height: 112px; */
+    display: flex;
+    flex: 1;
     top: 333px;
     right: 165px;
     bottom: 255px;
@@ -139,3 +146,4 @@ header {
     bottom: 446px;
     left: 830px;
 }
+
