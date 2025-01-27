@@ -58,7 +58,6 @@ footer {
 }
 
 .socialicon {
-  color: none;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -71,8 +70,12 @@ footer {
   flex-shrink: 0;
 }
 
-.icon:hover {
-  color: #f67e7e;
+svg {
+  fill: #fff;
+}
+
+svg:hover {
+  fill: #f67e7e;
 }
 
 .flex {
