@@ -1,3 +1,5 @@
+@import url(./colors.css);
+@import url(./buttons.css);
 /* Build and manage section CSS */
 * {
   margin: 0;
