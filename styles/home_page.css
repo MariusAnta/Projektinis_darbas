@@ -1,51 +1,69 @@
 /* Build and manage section CSS */
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .build-container {
-  width: 1440px;
-  height: 684px;
+  width: 90rem;
+  height: 42.8rem;
   background: #012f34;
+  display: flex;
+  flex-direction: row;
 }
 
 .build-left-red-line {
   background: #f67e7e;
-  width: 50px;
-  height: 4px;
+  width: 3.125rem;
+  height: 0.25rem;
 }
 
 .build-left-title {
-  width: 445px;
+  width: 27.8125rem;
 }
 
 .build-left-title > h1 {
   color: #fff;
   font-family: Livvic;
-  font-size: 48px;
+  font-size: 3rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 48px;
+  line-height: 3rem;
+}
+
+.build-right-advance-box {
+  display: flex;
+  flex-direction: row;
 }
 
 .build-right-svg {
   width: 72px;
   height: 72px;
 }
-.build-right-info{
-    width: 445px;
+.build-right-info {
+  display: flex;
+  width: 27.8125rem;
+  height: 5.875rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
 }
 
 .build-right-p-title {
   color: #f67e7e;
   font-family: Livvic;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 28px; /* 155.556% */
+  line-height: 1.75rem;
 }
 
 .build-right-p-info {
   color: #fff;
   font-family: Livvic;
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-style: normal;
   font-weight: 600;
-  line-height: 25px; /* 166.667% */
+  line-height: 1.5625rem; 
 }
