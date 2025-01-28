@@ -1,0 +1,31 @@
+/* @import url(colors.css);
+
+h1 {
+  color: var(--midnight-green);
+}
+
+h2 {
+  color: var(--light-coral);
+}
+
+h3 {
+  color: var(--rapture-blue);
+} */
+
+/* Pavizdys kaip naudoti globalias spalvas.  */
+
+/* Primary */
+:root {
+  --midnight-green: #014e56;
+  --light-coral: #f67e7e;
+  --white: #ffffff;
+}
+
+/* Secondary */
+:root {
+  --rapture-blue: #79c8c7;
+  --police-blue: #2c6269;
+  --deep-jungle-green: #004047;
+  --sacramento-state-green: #012f34;
+  --dark-green: #002529;
+}
