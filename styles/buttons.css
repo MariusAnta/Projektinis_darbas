@@ -1,0 +1,68 @@
+@import url(./colors.css);
+
+/* button failas
+jeigu yra import padarytas sukurus mygtuka automatiskai prisides css
+konkreciam mygtukui yra sukurtos klases jau idedu pvz 
+   <button class="primary_light">Primary light</button>
+    <button class="primary_dark">Primary dark</button>
+    <button class="secondary">Secondary</button>
+    <button disabled class="secondary">Disabled</button> 
+jei kazka reikia keisti tai jau savo css faile su ta klase tiesiog perrsaot kaip jum reikia*/
+
+button {
+  width: 9.5625rem;
+  height: 3rem;
+  flex-shrink: 0;
+  border-radius: 1.5rem;
+  border: 2px solid;
+  font-family: Livvic;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.75rem;
+}
+
+/* Primary button light */
+
+button.primary_light {
+  color: var(--white);
+  border-color: var(--white);
+  background-color: transparent;
+}
+
+button.primary_light:hover {
+  color: var(--dark-green);
+  background-color: var(--white);
+}
+
+button.primary_light:disabled,
+button.primary_dark:disabled,
+button.secondary:disabled {
+  opacity: 0.25;
+}
+
+/* Primary button dark */
+
+button.primary_dark {
+  color: var(--sacramento-state-green);
+  border-color: var(--sacramento-state-green);
+  background-color: transparent;
+}
+
+button.primary_dark:hover {
+  color: var(--white);
+  background-color: var(--sacramento-state-green);
+}
+
+/* Secondary button */
+
+button.secondary {
+  color: var(--dark-green);
+  border-color: var(--white);
+  background-color: var(--white);
+}
+
+button.secondary:hover {
+  background-color: var(--rapture-blue);
+  border-color: var(--rapture-blue);
+}
