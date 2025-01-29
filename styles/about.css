@@ -1,85 +1,23 @@
-/* Meet the directors */
-/* Pagrindinis konteineris */
-.maincontainer {
-  width: 250px;
-  height: 320px;
-  perspective: 1000px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 50px auto;
-}
-
-/* Kortelė */
-.thecard {
-  width: 100%;
-  height: 100%;
-  position: relative;
-  transform-style: preserve-3d;
-  transition: transform 0.5s ease;
-}
-
-/* Priekinė ir galinė pusės */
-.thefront, .theback {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 24px;
-  font-weight: bold;
-  border-radius: 10px;
-}
-
-/* Priekinė pusė */
-.thefront {
-  background: #002529;
-  color: aqua;
-}
-
-/* Galinė pusė */
-.theback {
-  background: #005529;
-  color: white;
-  transform: rotateY(180deg);
-}
-
-/* Apverstos kortelės klasė */
-.flipped {
-  transform: rotateY(180deg);
-}
-
-/* Stiliai mygtukui */
-button {
-  display: block;
-  margin: 20px auto;
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-}
-
 /* footer */
 
 @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap");
 
 footer {
   background-color: #002529;
-  width: 1440px;
-  height: 196px;
+  width: 90rem;
+  height: 12.25rem;
   flex-shrink: 0;
 }
 
 .homebutton {
   text-decoration: none;
-  padding-right: 40px;
+  padding-right: 2.5rem;
   color: #fff;
   font-family: Livvic;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-style: normal;
   font-weight: 600;
-  line-height: 28px;
+  line-height: 1.75rem;
 }
 
 .homebutton:hover {
@@ -90,10 +28,10 @@ footer {
   text-decoration: none;
   color: #fff;
   font-family: Livvic;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-style: normal;
   font-weight: 600;
-  line-height: 28px;
+  line-height: 1.75rem;
 }
 
 .aboutbutton:hover {
@@ -101,25 +39,25 @@ footer {
 }
 
 .myteam {
-  width: 160px;
-  height: 40px;
+  width: 10rem;
+  height: 2.5rem;
   flex-shrink: 0;
-  padding-top: 48px;
-  padding-left: 165px;
+  padding-top: 3rem;
+  padding-left: 10.31rem;
 }
 
 .address {
-  width: 445px;
-  height: 100px;
-  padding-left: 125px;
-  padding-top: 48px;
+  width: 27.8125rem;
+  height: 6.25rem;
+  padding-left: 7.81rem;
+  padding-top: 3rem;
   margin: 0;
   color: #fff;
   font-family: Livvic;
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 25px;
+  line-height: 1.5625rem;
   opacity: 0.6;
 }
 
@@ -127,24 +65,22 @@ footer {
   color: #fff;
   text-align: right;
   font-family: Livvic;
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 25px;
+  line-height: 1.5625rem;
   opacity: 0.6;
-  padding-top: 51px;
+  padding-top: 3.19rem;
 }
 
 .socialicon {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 104px;
-  height: 24px;
-  padding-left: 276px;
-  padding-top: 48px;
-  width: 104px;
-  height: 24px;
+  width: 6.5rem;
+  height: 1.5rem;
+  padding-left: 17.25rem;
+  padding-top: 3rem;
   flex-shrink: 0;
 }
 
@@ -162,7 +98,7 @@ svg:hover {
 }
 
 .buttonposition {
-  padding-top: 25px;
-  padding-bottom: 55px;
-  padding-left: 165px;
+  padding-top: 1.56rem;
+  padding-bottom: 3.44rem;
+  padding-left: 10.31rem;
 }
