@@ -1,7 +1,7 @@
-header {
+ .hero-section{
     display: flex;
     flex-wrap: wrap;
-    position: absolute;
+    position: relative;
     width: 1440px;
     height: 700px;
     margin: 0;
@@ -24,7 +24,7 @@ header {
     left: 165px;
 }
 /* Big bold text  on your left */
-.left{
+.left-find-talent{
     display: flex;
     flex: 1;
     flex-direction: column;
@@ -36,7 +36,7 @@ header {
     left: 165px;   
 }
 
-    .left h1 {
+    .left-find-talent h1 {
     margin: 0;
     white-space: normal;
     text-align: left;
@@ -45,12 +45,12 @@ header {
     line-height: 100px;
     color: white;
 }
-.left h1:first-child{
+.left-find-talent h1:first-child{
     display: inline-block;
     width: fit-content;
 }
 
-.left span {
+.left-find-talent span {
     font-weight: 700;
     font-size: 100px;
     line-height: 100px;
@@ -58,7 +58,7 @@ header {
 }
 
 /* Right text */
-.right {
+.right-finding-people {
     font-weight: 600;
     font-style: normal;
     max-width:  445px;
@@ -89,7 +89,7 @@ header {
 }
 .graphic {
     position: absolute;
-    overflow: hidden;
+    /* overflow: hidden; */
    
 }
 .graphic-top-left {
@@ -98,7 +98,7 @@ header {
     bottom: 250px;
     left: 0;
 }
-.graphic-bottom-right {
+.graphic-bottom-right-strips {
     width: 100px;
     height: 44px;
     top: 600px;
@@ -147,3 +147,84 @@ header {
     left: 830px;
 }
 
+@media (max-width: 1024px) {
+    .hero-section {
+        width: 100%;
+        height: auto;
+        padding: 50px 20px;
+    }
+
+    .container-header {
+        flex-direction: column;
+        text-align: center;
+        width: 90%;
+        left: auto;
+        top: auto;
+    }
+
+    .left-find-talent h1 {
+        font-size: 80px;
+        line-height: 90px;
+    }
+
+    .right-finding-people {
+        max-width: 100%;
+        font-size: 16px;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .graphic {
+        max-width: 20%;
+    }
+
+    .graphic-red-bottom-semioval {
+        top: auto;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+/* Telefonas (768px) */
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 40px 10px;
+    }
+
+    .container-header {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .left-find-talent h1 {
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+    .right-finding-people {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .graphic {
+        display: none; /* Jei reikia, galima išjungti kai kuriuos grafinius elementus */
+    }
+}
+
+/* Maži telefonai (480px) */
+@media (max-width: 480px) {
+    .hero-section {
+        padding: 30px 10px;
+    }
+
+    .left-find-talent h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .right-finding-people {
+        font-size: 12px;
+        line-height: 22px;
+    }
+}
