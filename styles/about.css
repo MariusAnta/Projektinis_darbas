@@ -1,2 +1,53 @@
 @import url(./colors.css);
 @import url(./buttons.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Livvic', sans-serif;
+}
+
+body {
+    background-color: #024B4B;
+    color: #FFF;
+}
+
+main {
+  padding: 4rem 5%;
+  display: inline-block;
+}
+
+.about_dalis h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.about_dalis h1::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -0.5rem;
+  width: 50px;
+  height: 3px;
+  background-color: #ff6b6b;
+}
+
+.about_dalis p {
+  position: relative;
+  left: 50%;
+  top: 20%;
+  max-width: 600px;
+  line-height: 1.6;
+  opacity: 0.9;
+}
+
+.oval {
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  opacity: 1;
+}
