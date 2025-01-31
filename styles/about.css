@@ -1,2 +1,58 @@
 @import url(./colors.css);
 @import url(./buttons.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Livvic', sans-serif;
+}
+
+body {
+    background-color: #024B4B;
+    color: #FFF;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 5%;
+}
+
+.first_logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.nav_home_about {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links a {
+    color: #FFF;
+    text-decoration: none;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+
+.nav_home_about a:hover {
+    opacity: 1;
+}
+
+.contactUs_button {
+    background-color: transparent;
+    border: 1px solid #FFF;;
+    color: #FFF;
+    padding: 0.5rem 1.5rem;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.contactUs_button:hover {
+    background-color:  #FFF;
+    color: #024B4B;
+}
