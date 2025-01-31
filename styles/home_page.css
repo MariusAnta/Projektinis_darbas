@@ -1,3 +1,4 @@
+
  .hero-section{
     display: flex;
     flex-wrap: wrap;
@@ -146,4 +147,6 @@
     bottom: 27.88rem;
     left: 51.88rem;
 }
+
+
 
