@@ -4,12 +4,12 @@
 
 footer {
   background-color: #002529;
-  width: 90rem;
+  /* width: 90rem; */
   height: 12.25rem;
   flex-shrink: 0;
 }
 
-.homebutton {
+.home-button {
   text-decoration: none;
   padding-right: 2.5rem;
   color: #fff;
@@ -20,11 +20,11 @@ footer {
   line-height: 1.75rem;
 }
 
-.homebutton:hover {
+.home-button:hover {
   color: #f67e7e;
 }
 
-.aboutbutton {
+.about-button {
   text-decoration: none;
   color: #fff;
   font-family: Livvic;
@@ -34,11 +34,11 @@ footer {
   line-height: 1.75rem;
 }
 
-.aboutbutton:hover {
+.about-button:hover {
   color: #f67e7e;
 }
 
-.myteam {
+.my-team {
   width: 10rem;
   height: 2.5rem;
   flex-shrink: 0;
@@ -71,15 +71,16 @@ footer {
   line-height: 1.5625rem;
   opacity: 0.6;
   padding-top: 3.19rem;
+  padding-right: 10.31rem;
 }
 
-.socialicon {
+.social-icon {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 6.5rem;
   height: 1.5rem;
-  padding-left: 17.25rem;
+  padding-left: 10.31rem;
   padding-top: 3rem;
   flex-shrink: 0;
 }
@@ -92,12 +93,12 @@ svg:hover {
   fill: #f67e7e;
 }
 
-.containerposition {
-  display: flex;
-  flex-wrap: nowrap;
+.container-position {
+  display: grid;
+  grid-template-columns: auto auto auto;
 }
 
-.buttonposition {
+.button-position {
   padding-top: 1.56rem;
   padding-bottom: 3.44rem;
   padding-left: 10.31rem;
