@@ -2,8 +2,8 @@
     display: flex;
     flex-wrap: wrap;
     position: relative;
-    width: 1440px;
-    height: 700px;
+    width: 90rem;
+    height: 43.75rem;
     margin: 0;
     background-color: #014E56;
     font-family: 'Livvic', sans-serif;
@@ -12,37 +12,36 @@
 .container-header {
     position: absolute;
     display: flex;
-    flex-wrap: wrap;
     overflow: hidden;
     align-items: center;
     justify-content: space-between ;
-    gap: 5px;
+    gap: 0.3125rem;
     background-color: #014E56;
-    top: 250px;
-    right: 165px;
-    bottom: 250px;
-    left: 165px;
+    top: 15.63rem;
+    right: 10.31rem;
+    bottom: 15.62rem;
+    left: 10.31rem;
 }
 /* Big bold text  on your left */
 .left-find-talent{
     display: flex;
     flex: 1;
     flex-direction: column;
-    max-width: 635px;
-    height: 200px;
-    top: 250px;
-    right: 165px;
-    bottom: 250px;
-    left: 165px;   
+    max-width: 39.69rem;
+    height: 12.5rem;
+    top: 15.63rem;
+    right: 10.31rem;
+    bottom: 15.62rem;
+    left: 10.31rem;   
 }
 
     .left-find-talent h1 {
     margin: 0;
     white-space: normal;
     text-align: left;
-    font-size: 100px;
+    font-size: 6.25rem;
     font-weight: 700;
-    line-height: 100px;
+    line-height: 6.25rem;
     color: white;
 }
 .left-find-talent h1:first-child{
@@ -52,8 +51,8 @@
 
 .left-find-talent span {
     font-weight: 700;
-    font-size: 100px;
-    line-height: 100px;
+    font-size: 6.25reem;
+    line-height: 6.25rem;
     color: #f67e7e;
 }
 
@@ -61,25 +60,25 @@
 .right-finding-people {
     font-weight: 600;
     font-style: normal;
-    max-width:  445px;
-    padding-top: 75px;
+    max-width:  27.81rem;
+    padding-top: 4.69rem;
     display: inline-block;
     text-align: left;
     display: flex;
     flex: 1;
-    top: 333px;
-    right: 165px;
-    bottom: 255px;
-    left: 830px;
+    top: 20.81rem;
+    right: 10.31rem;
+    bottom: 15.94rem;
+    left: 51.88rem;
     font-size: 18px;
     color: #ffffff;
-    line-height: 28px;
+    line-height: 1.75rem;
 }
 
 
 /* Graphic header */
 .graphics-container {
-    
+    display: flex;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -88,8 +87,9 @@
     pointer-events: none;
 }
 .graphic {
+
     position: absolute;
-    /* overflow: hidden; */
+
    
 }
 .graphic-top-left {
@@ -99,132 +99,51 @@
     left: 0;
 }
 .graphic-bottom-right-strips {
-    width: 100px;
-    height: 44px;
-    top: 600px;
-    right: 423px;
-    bottom: 56px;
-    left: 917px;
+    width: 15.63rem;
+    height: 2.75rem;
+    top: 37.5rem;
+    right: 26.44rem;
+    bottom: 3.5rem;
+    left: 57.31rem;
     z-index: 1;
     
 }
 .graphic-grey-bottom-semioval {
-    top: 600px;
-    right: 323px;
+    top: 37.5rem;
+    right: 20.19rem;
     bottom: 0;
-    left: 917px;
+    left: 57.31rem;
     
 }
 .graphic-black-bottom-behind-red-semioval{
-    top: 600px;
-    right: 165px;
+    top: 37.5rem;
+    right: 16510.31rem;
     bottom: 0;
-    left: 1075px;
+    left: 67.19rem;
     
 }
 .graphic-red-bottom-semioval{
-    top: 600px;
+    top: 37.5rem;
     right: 189.49px;
-    bottom: 100px;
-    left: 1050.51px;
+    bottom: 6.25rem;
+    left: 65.66rem;
     z-index: 1;
 }
 
 .graphic-rectangle {
     flex-shrink: 0;
-    top: 600px;
-    right: 165px;
-    bottom: 57px;
-    left: 1232px;
-    width: 43px;
-    height: 43px;
+    top: 37.5rem;
+    right: 10.31rem;
+    bottom: 3.56rem;
+    left: 77rem;
+    width: 2.69rem;
+    height: 2.69rem;
 }
 
 .graphic-minirectangle{
-    top: 250px;
-    right: 560px;
-    bottom: 446px;
-    left: 830px;
+    top: 15.63rem;
+    right: 35rem;
+    bottom: 27.88rem;
+    left: 51.88rem;
 }
 
-@media (max-width: 1024px) {
-    .hero-section {
-        width: 100%;
-        height: auto;
-        padding: 50px 20px;
-    }
-
-    .container-header {
-        flex-direction: column;
-        text-align: center;
-        width: 90%;
-        left: auto;
-        top: auto;
-    }
-
-    .left-find-talent h1 {
-        font-size: 80px;
-        line-height: 90px;
-    }
-
-    .right-finding-people {
-        max-width: 100%;
-        font-size: 16px;
-        text-align: center;
-        padding-top: 30px;
-    }
-
-    .graphic {
-        max-width: 20%;
-    }
-
-    .graphic-red-bottom-semioval {
-        top: auto;
-        bottom: 10px;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-}
-
-/* Telefonas (768px) */
-@media (max-width: 768px) {
-    .hero-section {
-        padding: 40px 10px;
-    }
-
-    .container-header {
-        width: 100%;
-        padding: 0 20px;
-    }
-
-    .left-find-talent h1 {
-        font-size: 60px;
-        line-height: 70px;
-    }
-
-    .right-finding-people {
-        font-size: 14px;
-        line-height: 24px;
-    }
-
-    .graphic {
-        display: none; /* Jei reikia, galima išjungti kai kuriuos grafinius elementus */
-    }
-}
-
-/* Maži telefonai (480px) */
-@media (max-width: 480px) {
-    .hero-section {
-        padding: 30px 10px;
-    }
-
-    .left-find-talent h1 {
-        font-size: 50px;
-        line-height: 60px;
-    }
-
-    .right-finding-people {
-        font-size: 12px;
-        line-height: 22px;
-    }
-}
