@@ -18,11 +18,11 @@ Savo norimoje darbo aplinkoje atsidarykite projektą.
 
 ## Komandos nariai:
 
-Gabija Umbrasevičė
-Irina Daunariene
-Laurynas Šavelis
-Marius Antanaitis
-Povilas Vasiliauskas
-Simona Jurkuvienė
-Tomas Jedik
-Vytas Janulis
+Gabija Umbrasevičė,
+Irina Daunariene,
+Laurynas Šavelis,
+Marius Antanaitis,
+Povilas Vasiliauskas,
+Simona Jurkuvienė,
+Tomas Jedik,
+Vytas Janulis.
