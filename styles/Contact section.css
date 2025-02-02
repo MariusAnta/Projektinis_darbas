@@ -1,4 +1,3 @@
-
 .contactcnt{
     display: flex;
     background-color: #F67E7E;
@@ -10,7 +9,6 @@
     align-items: center;
     flex-wrap: wrap;
 }
-
 .oneline{
     margin:auto;
     font-family: 'Livvic';
@@ -20,7 +18,6 @@
     font-weight: bold;
     word-wrap: normal;
 }
-
 /* Button style and hover*/
 /*.btncnt{
     background-color: transparent;
@@ -48,4 +45,3 @@
 .du{
     flex:auto;
 }
-
