@@ -9,8 +9,56 @@
 }
 
 
-/* footer */
+/* Meet the Directors */
 
+.directors-background-color {
+  background-color: #004047;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  place-content: center;
+  row-gap: 4.8rem;
+  column-gap: 1.83rem;
+  background-color: #004047;
+  background-image: url(../img/MeetTheDirectorsDesignBottom.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  padding-bottom: 10.5rem;
+}
+
+.header-directors {
+  background-color: #004047;
+  display: grid;
+  grid-template-columns: 6.25rem auto;
+}
+
+.directors-container {
+  padding-top: 8.75rem;
+  padding-bottom: 4.1rem;
+  color: #fff;
+  text-align: center;
+  font-family: Livvic;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3rem;
+  background-image: url(../img/MeetTheDirectorsDesign.png);
+  background-repeat: no-repeat;
+}
+
+.top-picture {
+  width: 6.25rem;
+  height: 12.5rem;
+}
+
+.bottom-picture {
+  width: 9.1875rem;
+  height: 6.25rem;
+}
+
+/* footer */
 
 footer {
   background-color: #002529;
@@ -113,3 +161,4 @@ svg {
 svg:hover {
   fill: #f67e7e;
 }
+
