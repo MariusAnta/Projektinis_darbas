@@ -1,0 +1,47 @@
+.contactcnt{
+    display: flex;
+    background-color: #F67E7E;
+    background-image: url("../img/Group 8.png");
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    height: 12.5rem;
+    justify-content: space-between;  
+    align-items: center;
+    flex-wrap: wrap;
+}
+.oneline{
+    margin:auto;
+    font-family: 'Livvic';
+    text-align: center;
+    font-size: 1.875rem;
+    color: #012F34;
+    font-weight: bold;
+    word-wrap: normal;
+}
+/* Button style and hover*/
+/*.btncnt{
+    background-color: transparent;
+    border-radius: 3.125rem;
+    border-width: 0.125rem;
+    border-color: 0.2rem #012F34;
+    border-style: solid;
+    width: 9.563rem;
+    height: 3rem;
+    font-size: 1.125rem;
+    font-weight: bold;
+}
+.btncnt:hover{
+    background-color: #012F34;
+    color: white;
+}
+    */
+/* Text and button positions*/
+.vienas{
+    flex: none;
+    font-size: 2.813rem;
+    font-weight:bolder;
+    padding-left: 20rem;
+}
+.du{
+    flex:auto;
+}
