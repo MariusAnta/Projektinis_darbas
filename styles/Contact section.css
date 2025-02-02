@@ -5,7 +5,7 @@
     background-image: url("../img/Group 8.png");
     background-repeat: no-repeat;
     background-position: bottom left;
-    height: 200px;
+    height: 12.5rem;
     width: 100%;
     justify-content: space-between;  
     align-items: center;
@@ -16,7 +16,7 @@
     margin:auto;
     font-family: 'Livvic';
     text-align: center;
-    font-size: 30px;
+    font-size: 1.875rem;
     color: #012F34;
     font-weight: bold;
     word-wrap: normal;
@@ -25,13 +25,13 @@
 /* Button style and hover*/
 .btncnt{
     background-color: transparent;
-    border-radius: 50px;
-    border-width:medium;
-    border-color: 0.5rem #012F34;
+    border-radius: 3.125rem;
+    border-width: 0.125rem;
+    border-color: 0.2rem #012F34;
     border-style: solid;
     width: 153px;
-    height: 48px;
-    font-size: 18px;
+    height: 3rem;
+    font-size: 1.125rem;
     font-weight: bold;
 }
 .btncnt:hover{
@@ -41,11 +41,11 @@
 /* Text and button positions*/
 .vienas{
     flex: none;
-    font-size: 45px;
+    font-size: 2.813rem;
     font-weight:bolder;
     padding-left: 20rem;
 }
 .du{
     flex:auto;
 }
-/* Background art*/
+
