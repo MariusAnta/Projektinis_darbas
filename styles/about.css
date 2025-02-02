@@ -7,15 +7,12 @@
     font-family: 'Livvic', sans-serif;
 }
 
-body {
-    background-color: #024B4B;
-    color: #FFF;
-}
-
-nav {
+nav.scrum-8_nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #024B4B;
+    color: #FFF;
     padding: 2rem 5%;
 }
 
