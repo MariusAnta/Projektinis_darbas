@@ -6,15 +6,11 @@
     box-sizing: border-box;
     font-family: 'Livvic', sans-serif;
 }
-
-body {
-    background-color: #024B4B;
-    color: #FFF;
-}
-
 main {
   padding: 4rem 5%;
   display: inline-block;
+  margin: 0;
+  font-family: "Livvic", sans-serif;
 }
 
 .about_dalis h1 {

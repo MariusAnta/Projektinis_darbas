@@ -1,10 +1,6 @@
 @import url(./colors.css);
 @import url(./buttons.css);
 
-body {
-    margin: 0;
-    font-family: "Livvic", sans-serif;
-  }
   
   .description {
     background-color: #004d4d;
