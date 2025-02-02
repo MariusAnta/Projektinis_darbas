@@ -6,7 +6,6 @@
     background-repeat: no-repeat;
     background-position: bottom left;
     height: 12.5rem;
-    width: 100%;
     justify-content: space-between;  
     align-items: center;
     flex-wrap: wrap;
@@ -23,13 +22,13 @@
 }
 
 /* Button style and hover*/
-.btncnt{
+/*.btncnt{
     background-color: transparent;
     border-radius: 3.125rem;
     border-width: 0.125rem;
     border-color: 0.2rem #012F34;
     border-style: solid;
-    width: 153px;
+    width: 9.563rem;
     height: 3rem;
     font-size: 1.125rem;
     font-weight: bold;
@@ -38,6 +37,7 @@
     background-color: #012F34;
     color: white;
 }
+    */
 /* Text and button positions*/
 .vienas{
     flex: none;
