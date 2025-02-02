@@ -79,7 +79,6 @@
     justify-content: baseline;
     list-style: none;
 }
-
 .cntul> :nth-child(1){
     background-image:url(../img/icon-person.svg);
     background-position: left;
@@ -92,15 +91,12 @@
     background-position: left;
     background-repeat: no-repeat;
     padding: 1.563rem 1.563rem 1.563rem 6.25rem;
-
-    
 }
 .cntul> :nth-child(3){
     background-image: url(../img/icon-chart.svg);
     background-position: left;
     background-repeat: no-repeat;
     padding: 1.563rem 1.563rem 1.563rem 6.25rem;
-    
 }
 /* Contact table button*/
 /*.cntbtn{
