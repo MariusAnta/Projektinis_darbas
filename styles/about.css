@@ -1,3 +1,87 @@
+/* Container */
+.container-some-of-our-clients {
+    width: 90rem;
+    height: 27.3125rem;
+    background-color: #012f34;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  /* Title */
+  .clients-title {
+    justify-items: center;
+    width: 57.5rem;
+    position: absolute;
+    padding-top: 8.75rem;
+    padding-right: 16.25rem;
+    padding-bottom: 15.56rem;
+    padding-left: 16.25rem;
+  }
+  .clients-title h2 {
+    display: flex;
+    color: #fff;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3rem;
+  }
+  
+  /* Logos */
+  .clients-logos {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    margin-top: 16.12rem;
+    margin-right: 69.38rem;
+    margin-bottom: 9.44rem;
+    margin-left: 10.31rem;
+    width: 10.3125rem;
+    height: 1.75rem;
+    gap: 5rem;
+  }
+  .clients-logos :nth-child(2) {
+    width: 11.5rem;
+    height: 1.4375rem;
+    flex-shrink: 0;
+  }
+  
+  .clients-logos :nth-child(3) {
+    width: 11.25rem;
+    height: 1.75rem;
+    flex-shrink: 0;
+  }
+  
+  .clients-logos :nth-child(4) {
+    width: 10.3125rem;
+    height: 1.75rem;
+    flex-shrink: 0;
+  }
+  
+  .clients-logos :last-child {
+    width: 6.125rem;
+    height: 2.8125rem;
+    flex-shrink: 0;
+  }
+  
+  /* logo optimization */
+  .clients-logos img {
+    color: #fff;
+    filter: brightness(0) invert(1);
+  }
+  
+  .background-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
 @import url(./colors.css);
 @import url(./buttons.css);
 @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap");
