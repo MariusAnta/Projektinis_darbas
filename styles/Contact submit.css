@@ -1,0 +1,118 @@
+/* Contact table*/
+.cnttbl{
+    padding-bottom: 3rem;
+    background-color: #014E56;
+    background-image: url(../img/Group_7.png), url(../img/Group_8.png); 
+    background-repeat: no-repeat, no-repeat;
+    background-position: right bottom, left 15%;
+    display:flex;
+    font-family: "Livvic";
+    color:white;
+}
+/*contact table text*/
+.cnttxt{
+    width: 33.75rem;
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    outline: none;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    color: white;
+    font-size: 1.25rem;
+    font-family: "Livvic";
+    font-weight: bold;
+}
+.cnttxt:hover{
+    border-bottom: 0.063rem solid #79C8C7 ;
+    outline: none;
+}
+.cnttxt:invalid{
+    border-bottom: 0.063rem solid #F67E7E;
+    outline: none;
+}
+.cnttxt:last-of-type{
+    margin-bottom: 2rem;
+    padding-bottom: 6rem;;
+}
+/*Left side of contact table */
+.cntsegment1{
+    flex:auto;
+    padding-left: 8rem;
+    width: 6.25rem;
+    margin-bottom: 0;
+}
+/*Right side of contact table*/
+.cntsegment2{
+    flex:auto;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    width: 6.25rem;
+
+}
+/* "Contact" header */
+.cnth1{
+    margin-top: 5.333rem;
+    margin-bottom: 0;
+    font-size: 5.333rem;
+    font-weight: 900;
+}
+/* "Ask us about" header*/
+.cnth2{
+    color: #F67E7E;
+    font-size: 2.667rem;
+    font-weight: bolder;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+/* Header position*/
+.cnth1 ,.cnth2{
+    padding-left: 2.5rem
+}
+/* Contact table list*/
+.cntul{
+    font-size: 1.3rem;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: baseline;
+    list-style: none;
+}
+.cntul> :nth-child(1){
+    background-image:url(../img/icon-person.svg);
+    background-position: left;
+    background-repeat: no-repeat;
+    padding: 1.563rem 1.563rem 1.563rem 6.25rem;
+   
+}
+.cntul> :nth-child(2){
+    background-image: url(../img/icon-cog.svg) ;
+    background-position: left;
+    background-repeat: no-repeat;
+    padding: 1.563rem 1.563rem 1.563rem 6.25rem;
+}
+.cntul> :nth-child(3){
+    background-image: url(../img/icon-chart.svg);
+    background-position: left;
+    background-repeat: no-repeat;
+    padding: 1.563rem 1.563rem 1.563rem 6.25rem;
+}
+/* Contact table button*/
+/*.cntbtn{
+    
+    border-radius: 1.563rem;
+    background-color: white;
+    border:none;
+    font-family: "Livvic";
+    font-size: 1.5rem;
+    color: #002529;
+    font-weight: bold;
+    height: 3rem;
+    width: 7.688rem;
+}
+.cntbtn:hover{
+    background-color: #79C8C7 ;
+
+}
+*/
