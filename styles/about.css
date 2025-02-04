@@ -1,129 +1,248 @@
+/* Container */
+.container-some-of-our-clients {
+    width: 90rem;
+    height: 27.3125rem;
+    background-color: #012f34;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  /* Title */
+  .clients-title {
+    justify-items: center;
+    width: 57.5rem;
+    position: absolute;
+    padding-top: 8.75rem;
+    padding-right: 16.25rem;
+    padding-bottom: 15.56rem;
+    padding-left: 16.25rem;
+  }
+  .clients-title h2 {
+    display: flex;
+    color: #fff;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3rem;
+  }
+  
+  /* Logos */
+  .clients-logos {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    margin-top: 16.12rem;
+    margin-right: 69.38rem;
+    margin-bottom: 9.44rem;
+    margin-left: 10.31rem;
+    width: 10.3125rem;
+    height: 1.75rem;
+    gap: 5rem;
+  }
+  .clients-logos :nth-child(2) {
+    width: 11.5rem;
+    height: 1.4375rem;
+    flex-shrink: 0;
+  }
+  
+  .clients-logos :nth-child(3) {
+    width: 11.25rem;
+    height: 1.75rem;
+    flex-shrink: 0;
+  }
+  
+  .clients-logos :nth-child(4) {
+    width: 10.3125rem;
+    height: 1.75rem;
+    flex-shrink: 0;
+  }
+  
+  .clients-logos :last-child {
+    width: 6.125rem;
+    height: 2.8125rem;
+    flex-shrink: 0;
+  }
+  
+  /* logo optimization */
+  .clients-logos img {
+    color: #fff;
+    filter: brightness(0) invert(1);
+  }
+  
+  .background-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
 @import url(./colors.css);
 @import url(./buttons.css);
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap");
 
-main {
-  padding: 4rem 5%;
-  display: inline-block;
+* {
   margin: 0;
-  font-family: "Livvic", sans-serif;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.about_dalis h1 {
-  font-size: 3.5rem;
-  margin-bottom: 1rem;
-  position: relative;
+
+/* Meet the Directors */
+
+.directors-background-color {
+  background-color: #004047;
 }
 
-.about_dalis h1::before {
-  content: "";
-  position: absolute;
-  left: 50%;
-  bottom: -0.5rem;
-  width: 50px;
-  height: 3px;
-  background-color: #ff6b6b;
+.cards-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  place-content: center;
+  row-gap: 4.8rem;
+  column-gap: 1.83rem;
+  background-color: #004047;
+  background-image: url(../img/MeetTheDirectorsDesignBottom.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  padding-bottom: 10.5rem;
 }
 
-.about_dalis p {
-  position: relative;
-  left: 50%;
-  top: 20%;
-  max-width: 600px;
-  line-height: 1.6;
-  opacity: 0.9;
+.header-directors {
+  background-color: #004047;
+  display: grid;
+  grid-template-columns: 6.25rem auto;
 }
 
-.oval {
-  position: absolute;
-  right: 5%;
-  top: 50%;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  opacity: 1;
+.directors-container {
+  padding-top: 8.75rem;
+  padding-bottom: 4.1rem;
+  color: #fff;
+  text-align: center;
+  font-family: Livvic;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3rem;
+  background-image: url(../img/MeetTheDirectorsDesign.png);
+  background-repeat: no-repeat;
 }
 
-nav {
+.top-picture {
+  width: 6.25rem;
+  height: 12.5rem;
+}
+
+.bottom-picture {
+  width: 9.1875rem;
+  height: 6.25rem;
+}
+
+/* footer */
+
+footer {
+  background-color: #002529;
+  height: 12.25rem;
+}
+
+.container-position {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.button-position {
+  padding-top: 1.4rem;
+  padding-bottom: 3.44rem;
+  padding-left: 10.31rem;
   display: flex;
-  justify-content: space-between;
+  flex-wrap: nowrap;
+  gap: 2.6rem;
+}
+
+.home-button {
+  text-decoration: none;
+  color: #fff;
+  font-family: Livvic;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.75rem;
+}
+
+ .home-button:hover {
+  color: #f67e7e;
+}
+
+.about-button {
+  text-decoration: none;
+  color: #fff;
+  font-family: Livvic;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.75rem;
+}
+
+.about-button:hover {
+  color: #f67e7e;
+}
+
+.my-team {
+  width: 10rem;
+  height: 2rem;
+  height: 2.5rem;
+  margin-top: 3rem;
+  margin-left: 10.31rem;
+}
+
+.address {
+  width: 27.8125rem;
+  height: 6.25rem;
+  padding-left: 4rem;
+  padding-top: 3rem;
+  margin: 0;
+  color: #fff;
+  font-family: Livvic;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5625rem;
+  opacity: 0.6;
+}
+
+.social-icon {
+  display: flex;
   align-items: center;
-  padding: 2rem 5%;
+  height: 1.5rem;
+  padding-left: 17.25rem;
+  padding-right: 6.31rem;
+  padding-top: 4rem;
+  gap: 1rem;
 }
 
-.first_logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #FFF;
-  text-decoration: none;
+.copyright {
+  color: #fff;
+  text-align: right;
+  font-family: Livvic;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5625rem;
+  opacity: 0.6;
+  padding-top: 3.8rem;
+  padding-right: 10.31rem;
+  letter-spacing: 0.01rem;
 }
 
-.nav_home_about {
-  display: flex;
-  gap: 2rem;
+svg {
+  fill: #fff;
 }
 
-.nav-links a {
-  color: #FFF;
-  text-decoration: none;
-  opacity: 0.8;
-  transition: opacity 0.3s;
+svg:hover {
+  fill: #f67e7e;
 }
 
-.nav_home_about a:hover {
-  opacity: 1;
-}
-
-.contactUs_button {
-  background-color: transparent;
-  border: 1px solid #FFF;;
-  color: #FFF;
-  padding: 0.5rem 1.5rem;
-  border-radius: 25px;
-  cursor: pointer;
-  transition: all 0.3s;
-}
-
-.contactUs_button:hover {
-  background-color:  #FFF;
-  color: #024B4B;
-}
-
-main {
-  padding: 4rem 5%;
-  display: inline-block;
-}
-
-.about_dalis h1 {
-  font-size: 3.5rem;
-  margin-bottom: 1rem;
-  position: relative;
-}
-
-.about_dalis h1::before {
-  content: '';
-  position: absolute;
-  left: 50%;
-  bottom: -0.5rem;
-  width: 50px;
-  height: 3px;
-  background-color: #FF6B6B;
-}
-
-.about_dalis p {
-  position: relative;
-  left: 50%;
-  top: 20%;
-  max-width: 600px;
-  line-height: 1.6;
-  opacity: 0.9;
-}
-
-.oval {
-  position: absolute;
-  right: 5%;
-  top: 50%;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  opacity: 1;
-}
