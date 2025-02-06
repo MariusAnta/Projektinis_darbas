@@ -1,6 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 /* Container */
 .container-some-of-our-clients {
-  width: 90rem;
+  width: 100%;
+  /* width: 90rem; */
   height: 27.3125rem;
   background-color: #012f34;
   text-align: center;
@@ -15,6 +21,7 @@
 /* Title */
 .clients-title {
   justify-items: center;
+  /* width: 100%; */
   width: 57.5rem;
   position: absolute;
   padding-top: 8.75rem;
@@ -23,6 +30,8 @@
   padding-left: 16.25rem;
 }
 .clients-title h2 {
+  width: 57.5rem;
+ justify-content: center;
   display: flex;
   color: #fff;
   text-align: center;
