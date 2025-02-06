@@ -11,20 +11,40 @@
     />
     <link rel="stylesheet" href="styles/about.css" />
     <link rel="stylesheet" href="styles/cards.css">
+    <link rel="stylesheet" href="styles/header.css">
     <title>About</title>
   </head>
   <body>
     <!--Header -  nav bar -->
     <header>
       <nav class="header-nav">
-        <img class="header-logo" src="/img/header-logo.svg" alt="header logo">
+        <img class="header-logo" src="img/header-logo.svg" alt="header logo">
         <div class="nav_home_about">
-            <a class="header-link header-home-link" href="/index.html">home</a>
-            <a class="header-link" href="/about.html">about</a>
+            <a class="header-link header-home-link" href="index.html">home</a>
+            <a class="header-link" href="about.html">about</a>
         </div>
         <div class="header-contact-button">
-        <a href="/contact.html" class="contact_us_button">contact us</a>
-     </div> </nav>
+        <a href="contact.html" class="contact_us_button">contact us</a>
+     </div>
+      <!-- Menu toggle -->
+      <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+      <label for="menu-toggle" class="menu-button">
+        <img src="img/mobile-header-toggle-menu.svg" alt="menu tab">
+      </label>
+  
+      <!-- Pop-up Menu -->
+      <div class="popup-menu">
+        <div class="popup-content">
+          <label for="menu-toggle" class="close-btn">
+            <img src="img/mobile-header-x-button.svg" alt="x button from mobile toggle">
+          </label>
+          <a class="header-link mobile-home-btn" href="index.html">Home</a>
+          <a class="header-link mobile-about-btn" href="about.html">About</a>
+          <a class="contact_us_button mobile-contact-btn" href="contact.html">Contact Us</a>
+          <div class="menu-bottom-image"></div>
+        </div>
+      </div>
+    </nav>
     </header>
     <!-- Hero section ("About")-->
       <section class="about_dalis">
@@ -266,7 +286,16 @@
     </section>
 
     <!-- Contact section ("Ready to get started") -->
-    <div></div>
+    <div class="contactcnt">
+      <div class="oneline takeittotheleft">
+          <p>Ready to get started?</p>
+      </div>
+      <div class="oneline takeittotheright">
+          <a href="contact.html">
+              <button class="btncnt"> contact us</button>
+          </a>
+      </div>
+   </div>
 
     <!-- Footer -->
     <footer>
