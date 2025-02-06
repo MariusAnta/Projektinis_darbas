@@ -207,7 +207,7 @@
 
 .build-right-advance-box {
   max-width: 33.75rem;
-  height: 5.875rem;
+  /* height: 5.875rem; */
   display: flex;
   flex-direction: row;
   gap: 1.44rem;
@@ -253,8 +253,8 @@
   right: -7rem;
   max-width: 12.5rem;
   max-height: 15.25rem;
-  width: 20vw; /* Makes it responsive */
-  height: auto; /* Maintains aspect ratio */
+  /* width: 20vw; Makes it responsive
+  height: auto; Maintains aspect ratio */
 }
 
 /* Tablet media query min 767px and max-width: 1440px*/
@@ -301,7 +301,60 @@
 /* Phone media query max 767px */
 
 @media screen and (max-width: 767px) {
+  .build-section {
+    height: 67.0625rem;
+    padding: 4rem 1.5rem;
+  }
 
+  .build-container {
+    display: flex;
+    flex-direction: column;
+    max-width:35.8125rem;
+  }
+
+  .build-left-side {
+    max-width: 15rem;
+    max-height: 12.25rem;
+  }
+
+  .build-left-red-line {
+    margin-bottom: 2rem;
+  }
+
+  .build-left-title {
+    max-width: 15rem;
+  }
+
+  .build-left-title > h1 {
+    color: #fff;
+    font-family: "Livvic";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2rem;
+  }
+
+  .build-right-advance-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .build-right-side{
+    padding-top: 3rem;
+  }
+
+  .build-right-info {
+    max-width: 20.4375rem;
+    align-items: center;
+    text-align: center;
+  }
+
+  .bg-element-svg-img {
+    top: 0.1rem;
+    right: -7rem;
+  }
 }
 
 /* footer */
