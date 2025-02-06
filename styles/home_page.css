@@ -8,58 +8,6 @@
   box-sizing: border-box;
 }
 
-/* header */
-
-.header-nav {
-  display: flex;
-  align-items: center;
-  background-color: var(--midnight-green);
-  color: #fff;
-  height: 12rem;
-}
-
-.header-logo {
-  margin-left: 10.31rem;
-}
-
-.nav_home_about {
-  display: flex;
-  gap: 2.5rem;
-}
-.header-home-link {
-  margin-left: 5rem;
-}
-
-.header-link {
-  color: #fff;
-  text-decoration: none;
-}
-
-.header-link:hover {
-  color: var(--light-coral);
-}
-
-.contact_us_button {
-  background-color: transparent;
-  border: 1px solid #fff;
-  color: #fff;
-  padding: 0.5rem 1.5rem;
-  border-radius: 25px;
-  cursor: pointer;
-  transition: all 0.3s;
-  text-decoration: none;
-}
-
-.header-contact-button {
-  margin-left: auto;
-  margin-right: 10.31rem;
-}
-
-.contact_us_button:hover {
-  background-color: #fff;
-  color: #024b4b;
-}
-
 .hero-section {
   display: flex;
   flex-wrap: wrap;
@@ -465,29 +413,29 @@ svg:hover {
 }
 
 /* "Ready to get started?" Bar*/
-.contactcnt{
+.contactcnt {
   display: flex;
-  background-color: #F67E7E;
+  background-color: #f67e7e;
   background-image: url("../img/Contact_bar.png");
   background-repeat: no-repeat;
   background-position: bottom left;
   height: 12.5rem;
-  justify-content: space-between;  
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
 }
 /* aligning text of "Ready to get started?" bar*/
-.oneline{
-  margin:auto;
-  font-family: 'Livvic';
+.oneline {
+  margin: auto;
+  font-family: "Livvic";
   text-align: center;
   font-size: 1.875rem;
-  color: #012F34;
+  color: #012f34;
   font-weight: bold;
   word-wrap: normal;
 }
 /* Button style and hover*/
-.btncnt{
+.btncnt {
   width: 9.5625rem;
   height: 3rem;
   flex-shrink: 0;
@@ -502,24 +450,21 @@ svg:hover {
   border-color: #012f34;
   background-color: transparent;
 }
-.btncnt:hover{
+.btncnt:hover {
   color: white;
   background-color: #012f34;
 }
-  
+
 /* Text and button positions in "Ready to get started?" bar*/
-.takeittotheleft{
+.takeittotheleft {
   flex: none;
   font-size: 2.813rem;
-  font-weight:bolder;
+  font-weight: bolder;
   padding-left: 20rem;
 }
-.takeittotheright{
-  flex:auto;
+.takeittotheright {
+  flex: auto;
 }
-
-/* "Ready to get started?" end of section*/
-=======
 
 /* hero sekcija */
 
@@ -635,4 +580,3 @@ svg:hover {
   left: 40%;
   top: -2.5rem;
 }
-
