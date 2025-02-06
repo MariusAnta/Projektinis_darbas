@@ -297,59 +297,6 @@ svg:hover {
   flex:auto;
 }
 
-/* "Ready to get started?" end of section*/
-=======
-/* header */
-
-.header-nav {
-  display: flex;
-  align-items: center;
-  background-color: var(--midnight-green);
-  color: #fff;
-  height: 12rem;
-}
-
-.header-logo {
-  margin-left: 10.31rem;
-}
-
-.nav_home_about {
-  display: flex;
-  gap: 2.5rem;
-}
-.header-home-link {
-  margin-left: 5rem;
-}
-
-.header-link {
-  color: #fff;
-  text-decoration: none;
-}
-
-.header-link:hover {
-  color: var(--light-coral);
-}
-
-.contact_us_button {
-  background-color: transparent;
-  border: 1px solid #fff;
-  color: #fff;
-  padding: 0.5rem 1.5rem;
-  border-radius: 25px;
-  cursor: pointer;
-  transition: all 0.3s;
-  text-decoration: none;
-}
-
-.header-contact-button {
-  margin-left: auto;
-  margin-right: 10.31rem;
-}
-
-.contact_us_button:hover {
-  background-color: #fff;
-  color: #024b4b;
-}
 
 /* hero section */
 
