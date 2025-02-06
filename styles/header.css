@@ -173,7 +173,7 @@
   }
 
   .menu-bottom-image {
-    background: url(/img/mobile-toggle-menu-img.svg) no-repeat;
+    background: url(../img/mobile-toggle-menu-img.svg) no-repeat;
     width: 12.5rem;
     height: 12.5rem;
     margin-left: 9.69rem;

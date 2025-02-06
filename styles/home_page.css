@@ -507,13 +507,13 @@ svg:hover {
 }
 
 .virsaus_logo {
-  background: url(/img/second-section-top-left.svg);
+  background: url(../img/second-section-top-left.svg);
   width: 9.1875rem;
   height: 6.25rem;
 }
 
 .apacios_logo {
-  background: url(/img/second-section-bot-right.svg) no-repeat;
+  background: url(../img/second-section-bot-right.svg) no-repeat;
   width: 12.5rem;
   height: 15.25rem;
   margin-left: auto;
