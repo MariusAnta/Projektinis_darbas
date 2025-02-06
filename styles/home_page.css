@@ -373,8 +373,17 @@ svg:hover {
 @media only screen and (max-width: 1439px) { /*tablet*/
   .container-position {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 10rem auto;
   }
+  .first-box {
+    grid-column: span 1; 
+    width: 10rem;
+  }
+  
+  .second-boxes {
+    grid-column: span 2;
+  }
+  
   footer {
     height: 16.9375rem;
   }
@@ -388,6 +397,9 @@ svg:hover {
     font-size: 0.9375rem;
     line-height: 1.5625rem;
   }
+  .home-container {
+    width: auto;
+  }
   .button-position {
     padding-top: 3.106rem;
     padding-left: 2.46rem;
@@ -396,8 +408,11 @@ svg:hover {
     padding-bottom: 0rem;
   }
   .social-icon {
-    padding-left: 2.45rem;
-    padding-top: 2.9rem;
+    justify-content: left;
+    padding-left: 2.41rem;
+    padding-top: 2.08rem;
+    padding-right: 0rem;
+    padding-bottom: 0rem;
   }
   .address {
     text-align: right;
@@ -408,7 +423,9 @@ svg:hover {
     margin-right: 0.25rem;
   }
   .copyright {
+    width: 45.5rem;
     padding-top: 0rem;
+    padding-right: 0rem;
   }
 }
 
