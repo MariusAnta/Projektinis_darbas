@@ -1,3 +1,4 @@
+
 *{
   box-sizing: border-box;
   margin: 0;
@@ -13,7 +14,14 @@
     position: relative;
     font-family: 'Livvic', sans-serif;
 
-}
+=======
+@import url(./colors.css);
+@import url(./buttons.css);
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap");
+
+
+
+
 
 .container-header {
   position: absolute;
@@ -57,6 +65,7 @@
     font-size: 6.25rem;
     line-height: 6.25rem;
     color: #f67e7e;
+
 }
 
 /* Right text */
@@ -86,11 +95,12 @@ font-size: 1.125rem;
 font-style: normal;
 font-weight: 600;
 line-height: 1.75rem;
-}
 
+}
 
 /* Graphic header */
 .graphics-container {
+
     display: flex;
     position: relative;
     width: 88%;
@@ -98,14 +108,20 @@ line-height: 1.75rem;
    margin: 0;
 
    
+
 }
 .graphic {
+  position: absolute;
+}
 
-    position: absolut;
   
 
 
-}
+.graphic-minirectangle {
+  top: 15.63rem;
+  right: 35rem;
+  bottom: 27.88rem;
+  left: 51.88rem;
 .graphic-top-left {
     margin-top: 15.63rem;
     
@@ -117,7 +133,9 @@ line-height: 1.75rem;
     right: 26.41rem;
     z-index: 1;
 
-}
+
+
+
 .graphic-grey-bottom-semioval {
 position: absolute;
     top: 37.5rem;
@@ -150,7 +168,7 @@ position: absolute;
 } 
 
 @import url(./colors.css);
-@import url(./button);
+@import url(./buttons.css);
 
 
 
