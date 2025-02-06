@@ -4,11 +4,41 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/contact.css" />
+    <link rel="stylesheet" href="styles/header.css">
     <title>Contacts</title>
   </head>
   <body>
     <!--Header -  nav bar -->
-    <header></header>
+    <header>
+      <nav class="header-nav">
+        <img class="header-logo" src="img/header-logo.svg" alt="header logo">
+        <div class="nav_home_about">
+            <a class="header-link header-home-link" href="index.html">home</a>
+            <a class="header-link" href="about.html">about</a>
+        </div>
+        <div class="header-contact-button">
+        <a href="contact.html" class="contact_us_button">contact us</a>
+     </div>
+      <!-- Menu toggle (Checkbox) -->
+      <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+      <label for="menu-toggle" class="menu-button">
+        <img src="img/mobile-header-toggle-menu.svg" alt="menu tab">
+      </label>
+  
+      <!-- Pop-up Menu -->
+      <div class="popup-menu">
+        <div class="popup-content">
+          <label for="menu-toggle" class="close-btn">
+            <img src="img/mobile-header-x-button.svg" alt="x button from mobile toggle">
+          </label>
+          <a class="header-link mobile-home-btn" href="index.html">Home</a>
+          <a class="header-link mobile-about-btn" href="about.html">About</a>
+          <a class="contact_us_button mobile-contact-btn" href="contact.html">Contact Us</a>
+          <div class="menu-bottom-image"></div>
+        </div>
+      </div>
+    </nav>
+    </header>
     <!-- Contact page -->
     <div></div>
     <!-- Footer -->

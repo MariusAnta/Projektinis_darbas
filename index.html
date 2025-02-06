@@ -7,13 +7,42 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/home_page.css" />
+    <link rel="stylesheet" href="styles/header.css">
     <title>Home page</title>
   </head>
   <body>
     <!--Header -  nav bar -->
+    <header>
+      <nav class="header-nav">
+        <img class="header-logo" src="img/header-logo.svg" alt="header logo">
+        <div class="nav_home_about">
+            <a class="header-link header-home-link" href="index.html">home</a>
+            <a class="header-link" href="about.html">about</a>
+        </div>
+        <div class="header-contact-button">
+        <a href="contact.html" class="contact_us_button">contact us</a>
+     </div>
+      <!-- Menu toggle (Checkbox) -->
+      <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+      <label for="menu-toggle" class="menu-button">
+        <img src="img/mobile-header-toggle-menu.svg" alt="menu tab">
+      </label>
+  
+      <!-- Pop-up Menu -->
+      <div class="popup-menu">
+        <div class="popup-content">
+          <label for="menu-toggle" class="close-btn">
+            <img src="img/mobile-header-x-button.svg" alt="x button from mobile toggle">
+          </label>
+          <a class="header-link mobile-home-btn" href="index.html">Home</a>
+          <a class="header-link mobile-about-btn" href="about.html">About</a>
+          <a class="contact_us_button mobile-contact-btn" href="contact.html">Contact Us</a>
+          <div class="menu-bottom-image"></div>
+        </div>
+      </div>
+    </nav>
+    </header>
 
-    <header></header>  
-    
     <!-- Hero section ("Find the best talent")-->
     <div></div>
 
@@ -114,9 +143,86 @@
         <img class="bg-element-svg-img" src="img/bg-pattern-home-3.svg" alt="background pattern">
     </div>
     <!-- Second section ("Delivering real results") -->
-    <div></div>
+  
+    <section class="description">
+      <div class="virsaus_logo">
+      </div>
+        <div class="description-header">
+          <h1>
+            Delivering real results for top companies. Some of our
+            <span class="success-stories">success stories</span>.
+          </h1>
+        </div>
+  
+        <div class="atsiliepimas">
+          <div class="atsiliepimo_kortele">
+            <div class="atsiliepimai_quotes"></div>
+            <div class="citata">
+              "The team perfectly fit the specialized skill set required. They
+              focused on the most essential features helping us launch the
+              platform eight months faster than planned."
+            </div>
+            <div class="atsiliepimo_kortele">
+              <strong class="atsiliepimo_autorius">Kady Baker</strong>
+              <div class="pareigos">Product Manager at Bookmark</div>
+              <img
+                src="img/avatar-kady.jpg"
+                alt="Kady Baker"
+                class="autoriaus_nuotrauka"
+              />
+            </div>
+          </div>
+  
+          <div class="atsiliepimo_kortele">
+            <div class="atsiliepimai_quotes"></div>
+            <div class="citata">
+              "We needed to automate our entire onboarding process. The team came
+              and built out the whole journey. Since going live, user retention
+              has gone through the roof!"
+            </div>
+            <div class="autoriaus_info">
+              <strong class="atsiliepimo_autorius">Alysha Reese</strong>
+              <div class="pareigos">Founder of Manage</div>
+              <img
+                src="img/avatar-aiysha.jpg"
+                alt="Alysha Reese"
+                class="autoriaus_nuotrauka"
+              />
+            </div>
+          </div>
+  
+          <div class="atsiliepimo_kortele">
+            <div class="atsiliepimai_quotes"></div>
+            <div class="citata">
+              "Amazing. Our team helped us build an app that delivered a new
+              experience for hiring a physio. The launch was an instant success
+              with 100k downloads in the first month."
+            </div>
+            <div class="autoriaus_info">
+              <strong class="atsiliepimo_autorius">Arthur Clarke</strong>
+              <div class="pareigos">Co-founder of MyPhysio</div>
+              <img
+                src="img/avatar-arthur.jpg"
+                alt="Arthur Clarke"
+                class="autoriaus_nuotrauka"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="apacios_logo"></div>
+    </section>
+  
     <!-- Contact section ("Ready to get started") -->
-    <div></div>
+    <div class="contactcnt">
+      <div class="oneline takeittotheleft">
+          <p>Ready to get started?</p>
+      </div>
+      <div class="oneline takeittotheright">
+          <a href="contact.html">
+            <button class="btncnt"> contact us</button>
+          </a>
+      </div>
+   </div>
     <!-- Footer -->
     <footer>
       <div class="container-position">

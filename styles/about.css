@@ -1,87 +1,88 @@
 /* Container */
 .container-some-of-our-clients {
-    width: 90rem;
-    height: 27.3125rem;
-    background-color: #012f34;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    position: relative;
-  }
-  
-  /* Title */
-  .clients-title {
-    justify-items: center;
-    width: 57.5rem;
-    position: absolute;
-    padding-top: 8.75rem;
-    padding-right: 16.25rem;
-    padding-bottom: 15.56rem;
-    padding-left: 16.25rem;
-  }
-  .clients-title h2 {
-    display: flex;
-    color: #fff;
-    text-align: center;
-    font-family: Livvic;
-    font-size: 3rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 3rem;
-  }
-  
-  /* Logos */
-  .clients-logos {
-    display: flex;
-    position: absolute;
-    align-items: center;
-    margin-top: 16.12rem;
-    margin-right: 69.38rem;
-    margin-bottom: 9.44rem;
-    margin-left: 10.31rem;
-    width: 10.3125rem;
-    height: 1.75rem;
-    gap: 5rem;
-  }
-  .clients-logos :nth-child(2) {
-    width: 11.5rem;
-    height: 1.4375rem;
-    flex-shrink: 0;
-  }
-  
-  .clients-logos :nth-child(3) {
-    width: 11.25rem;
-    height: 1.75rem;
-    flex-shrink: 0;
-  }
-  
-  .clients-logos :nth-child(4) {
-    width: 10.3125rem;
-    height: 1.75rem;
-    flex-shrink: 0;
-  }
-  
-  .clients-logos :last-child {
-    width: 6.125rem;
-    height: 2.8125rem;
-    flex-shrink: 0;
-  }
-  
-  /* logo optimization */
-  .clients-logos img {
-    color: #fff;
-    filter: brightness(0) invert(1);
-  }
-  
-  .background-logo {
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-  
+  width: 90rem;
+  height: 27.3125rem;
+  background-color: #012f34;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* Title */
+.clients-title {
+  justify-items: center;
+  width: 57.5rem;
+  position: absolute;
+  padding-top: 8.75rem;
+  padding-right: 16.25rem;
+  padding-bottom: 15.56rem;
+  padding-left: 16.25rem;
+}
+.clients-title h2 {
+  display: flex;
+  color: #fff;
+  text-align: center;
+  font-family: Livvic;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3rem;
+}
+
+/* Logos */
+.clients-logos {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  margin-top: 16.12rem;
+  margin-right: 69.38rem;
+  margin-bottom: 9.44rem;
+  margin-left: 10.31rem;
+  width: 10.3125rem;
+  height: 1.75rem;
+  gap: 5rem;
+}
+.clients-logos :nth-child(2) {
+  width: 11.5rem;
+  height: 1.4375rem;
+  flex-shrink: 0;
+}
+
+.clients-logos :nth-child(3) {
+  width: 11.25rem;
+  height: 1.75rem;
+  flex-shrink: 0;
+}
+
+.clients-logos :nth-child(4) {
+  width: 10.3125rem;
+  height: 1.75rem;
+  flex-shrink: 0;
+}
+
+.clients-logos :last-child {
+  width: 6.125rem;
+  height: 2.8125rem;
+  flex-shrink: 0;
+}
+
+/* logo optimization */
+.clients-logos img {
+  color: #fff;
+  filter: brightness(0) invert(1);
+}
+
+.background-logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
 @import url(./colors.css);
 @import url(./buttons.css);
 @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap");
@@ -91,7 +92,89 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* Container */
+.container-some-of-our-clients {
+  width: 90rem;
+  height: 27.3125rem;
+  background-color: #012f34;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  position: relative;
+}
 
+/* Title */
+.clients-title {
+  justify-items: center;
+  width: 57.5rem;
+  position: absolute;
+  padding-top: 8.75rem;
+  padding-right: 16.25rem;
+  padding-bottom: 15.56rem;
+  padding-left: 16.25rem;
+}
+.clients-title h2 {
+  display: flex;
+  color: #fff;
+  text-align: center;
+  font-family: Livvic;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3rem;
+}
+
+/* Logos */
+.clients-logos {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  margin-top: 16.12rem;
+  margin-right: 69.38rem;
+  margin-bottom: 9.44rem;
+  margin-left: 10.31rem;
+  width: 10.3125rem;
+  height: 1.75rem;
+  gap: 5rem;
+}
+.clients-logos :nth-child(2) {
+  width: 11.5rem;
+  height: 1.4375rem;
+  flex-shrink: 0;
+}
+
+.clients-logos :nth-child(3) {
+  width: 11.25rem;
+  height: 1.75rem;
+  flex-shrink: 0;
+}
+
+.clients-logos :nth-child(4) {
+  width: 10.3125rem;
+  height: 1.75rem;
+  flex-shrink: 0;
+}
+
+.clients-logos :last-child {
+  width: 6.125rem;
+  height: 2.8125rem;
+  flex-shrink: 0;
+}
+
+/* logo optimization */
+.clients-logos img {
+  color: #fff;
+  filter: brightness(0) invert(1);
+}
+
+.background-logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
 /* Meet the Directors */
 
@@ -105,7 +188,6 @@
   place-content: center;
   row-gap: 4.8rem;
   column-gap: 1.83rem;
-  background-color: #004047;
   background-image: url(../img/MeetTheDirectorsDesignBottom.png);
   background-repeat: no-repeat;
   background-position: bottom right;
@@ -128,8 +210,6 @@
   font-style: normal;
   font-weight: 700;
   line-height: 3rem;
-  background-image: url(../img/MeetTheDirectorsDesign.png);
-  background-repeat: no-repeat;
 }
 
 .top-picture {
@@ -173,7 +253,7 @@ footer {
   line-height: 1.75rem;
 }
 
- .home-button:hover {
+.home-button:hover {
   color: #f67e7e;
 }
 
@@ -202,7 +282,7 @@ footer {
 .address {
   width: 27.8125rem;
   height: 6.25rem;
-  padding-left: 4rem;
+  padding-left: 5.4rem;
   padding-top: 3rem;
   margin: 0;
   color: #fff;
@@ -216,11 +296,11 @@ footer {
 
 .social-icon {
   display: flex;
-  align-items: center;
+  justify-content: right;
   height: 1.5rem;
   padding-left: 17.25rem;
-  padding-right: 6.31rem;
-  padding-top: 4rem;
+  padding-right: 10.31rem;
+  padding-top: 3.1rem;
   gap: 1rem;
 }
 
@@ -233,7 +313,7 @@ footer {
   font-weight: 500;
   line-height: 1.5625rem;
   opacity: 0.6;
-  padding-top: 3.8rem;
+  padding-top: 4.55rem;
   padding-right: 10.31rem;
   letter-spacing: 0.01rem;
 }
@@ -244,5 +324,165 @@ svg {
 
 svg:hover {
   fill: #f67e7e;
+}
+
+
+/* Meet the directors adjust */
+@media only screen and (max-width: 1439px) { /*Tablet*/
+  .cards-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 4.75rem;
+    padding-bottom: 7.9rem;
+    column-gap: 0.69rem;
+  }
+  .directors-container {
+    padding-top: 6.269rem;
+    padding-bottom: 3rem;
+    color: #FFF;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2rem; 
+    row-gap: 4.75rem;
+  }
+  .directors-background-color {
+    background-color: #004047;
+    background-image: url(../img/MeetTheDirectorsDesign.png);
+    background-repeat: no-repeat;
+    background-size: 6.25rem 12.5rem;
+  }
+}
+
+@media only screen and (max-width: 767px){ /*Mobile*/
+  .cards-container {
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 3.23rem;
+    padding-bottom: 7.35rem;
+}
+ .directors-background-color {
+    background-color: #004047;
+    background-image: url(../img/MobileVersionDirectorsDesign.png);
+    background-repeat: no-repeat;
+    background-size: 6.25rem 6.25rem;
+}
+ .directors-container {
+  padding-top: 5.58rem;
+ }
+}
+
+/* header */
+
+.header-nav {
+=======
+/* "Ready to get started?" Bar*/
+.contactcnt{
+  display: flex;
+  background-color: #F67E7E;
+  background-image: url("../img/Contact_bar.png");
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  height: 12.5rem;
+  justify-content: space-between;  
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* aligning text of "Ready to get started?" bar*/
+.oneline{
+  margin:auto;
+  font-family: 'Livvic';
+  text-align: center;
+  font-size: 1.875rem;
+  color: #012F34;
+  font-weight: bold;
+  word-wrap: normal;
+}
+/* Button style and hover*/
+.btncnt{
+  width: 9.5625rem;
+  height: 3rem;
+  flex-shrink: 0;
+  border-radius: 1.5rem;
+  border: 2px solid;
+  font-family: Livvic;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.75rem;
+  color: #012f34;
+  border-color: #012f34;
+  background-color: transparent;
+}
+.btncnt:hover{
+  color: white;
+  background-color: #012f34;
+}
+/* Text and button positions in "Ready to get started?" bar*/
+.takeittotheleft{
+  flex: none;
+  font-size: 2.813rem;
+  font-weight:bolder;
+  padding-left: 20rem;
+}
+.takeittotheright{
+  flex:auto;
+}
+
+
+/* hero section */
+
+.about_dalis {
+  height: 20.31rem;
+  background: var(--midnight-green);
+  position: relative;
+  display: flex;
+}
+
+.hero-header {
+  color: #fff;
+  font-family: Livvic;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 6.25rem;
+  margin-left: 10.31rem;
+  padding-top: 3.06rem;
+}
+
+.hero-paragraph-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 13.88rem;
+}
+
+.hero-about-rectangle {
+  background: url(/img/Rectangle.svg);
+  width: 3.125rem;
+  height: 0.25rem;
+  margin-top: 3.06rem;
+}
+
+.hero-about-description {
+  max-width: 45.625rem;
+  color: #fff;
+  font-family: Livvic;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.75rem;
+  margin-top: 2.5rem;
+}
+
+.oval-background {
+  background: url(/img/about-hero-oval.svg) no-repeat;
+  width: 12.5rem;
+  height: 12.5rem;
+  margin-left: auto;
+  margin-right: 0;
+  margin-top: -5.75rem;
+  margin-right: -6.25rem;
 }
 
