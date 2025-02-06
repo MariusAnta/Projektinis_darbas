@@ -369,7 +369,7 @@ footer {
 .address {
   width: 27.8125rem;
   height: 6.25rem;
-  padding-left: 4rem;
+  padding-left: 3.95rem;
   padding-top: 3rem;
   margin: 0;
   color: #fff;
@@ -381,13 +381,17 @@ footer {
   opacity: 0.6;
 }
 
+.footer-address-numbers {
+  margin-right: 0.19rem;
+}
+
 .social-icon {
   display: flex;
   align-items: center;
   height: 1.5rem;
   padding-left: 17.25rem;
-  padding-right: 6.31rem;
-  padding-top: 4rem;
+  padding-right: 6.rem;
+  padding-top: 3.86rem;
   gap: 1rem;
 }
 
@@ -443,6 +447,17 @@ svg:hover {
   .social-icon {
     padding-left: 2.45rem;
     padding-top: 2.9rem;
+  }
+  .address {
+    text-align: right;
+    width: 16.77rem;
+    padding-top: 3.49rem;
+  }
+  .footer-address-numbers {
+    margin-right: 0.25rem;
+  }
+  .copyright {
+    padding-top: 0rem;
   }
 }
 
