@@ -138,8 +138,7 @@
 @media only screen and (max-width: 1439px) { /*Tablet*/
   .director-card-front,
   .director-card-back {
-    width: 17.5652rem;
-    height: 15.8125rem;
+    
   }
   .director-card-quote {
     color: #FFF;
@@ -157,5 +156,19 @@
   }
   .card-icon-container{
     gap: 0.9rem;
+  }
+}
+
+@media only screen and (max-width: 767px){ /*Mobile*/
+  .director-card-front, 
+  .director-card-back {
+    width: 20.4375rem;
+    height: 15.8125rem;
+  }
+  .director-card-image {
+    margin-top: 1.84rem;
+  }
+  .plus-button {
+    top: 14rem;
   }
 }
