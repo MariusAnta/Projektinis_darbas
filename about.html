@@ -10,17 +10,260 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/about.css" />
+    <link rel="stylesheet" href="styles/cards.css">
+    <link rel="stylesheet" href="styles/header.css">
     <title>About</title>
   </head>
   <body>
     <!--Header -  nav bar -->
-
-    <!--Header -  nav bar -->
-    <header></header>
+    <header>
+      <nav class="header-nav">
+        <img class="header-logo" src="img/header-logo.svg" alt="header logo">
+        <div class="nav_home_about">
+            <a class="header-link header-home-link" href="index.html">home</a>
+            <a class="header-link" href="about.html">about</a>
+        </div>
+        <div class="header-contact-button">
+        <a href="contact.html" class="contact_us_button">contact us</a>
+     </div>
+      <!-- Menu toggle -->
+      <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+      <label for="menu-toggle" class="menu-button">
+        <img src="img/mobile-header-toggle-menu.svg" alt="menu tab">
+      </label>
+  
+      <!-- Pop-up Menu -->
+      <div class="popup-menu">
+        <div class="popup-content">
+          <label for="menu-toggle" class="close-btn">
+            <img src="img/mobile-header-x-button.svg" alt="x button from mobile toggle">
+          </label>
+          <a class="header-link mobile-home-btn" href="index.html">Home</a>
+          <a class="header-link mobile-about-btn" href="about.html">About</a>
+          <a class="contact_us_button mobile-contact-btn" href="contact.html">Contact Us</a>
+          <div class="menu-bottom-image"></div>
+        </div>
+      </div>
+    </nav>
+    </header>
     <!-- Hero section ("About")-->
-    <div></div>
+      <section class="about_dalis">
+        <h1 class="hero-header">About</h1>
+        <div class="hero-paragraph-container">
+          <div class="hero-about-rectangle"></div>
+          <p class="hero-about-description">
+            We help companies build dynamic teams and cultivate shared vision. Using
+            our expertise, talented diverse teams are at their innovative and
+            deliver incredible outcomes. Through careful, diverse teams shape the
+            best products and experiences. We'll bring those teams to you.
+          </p>
+      </div>
+        <div class="oval-background">
+        </div>
+      </section>
+ 
+    
     <!-- First section ("Meet the directors") -->
-    <div></div>
+     <div class="directors-background-color">
+      <h1 class="directors-container">Meet the directors</h1>
+      <div class="header-directors">
+     </div>
+     <div class="cards-container nikita-card">
+    <div class="director-card">
+      <input type="checkbox" id="flip1" class="flip-checkbox" />
+
+      <div class="director-card-inner">
+        <div class="director-card-front">
+          <img
+            class="director-card-image"
+            src="img/NikitaMarks.png"
+            alt="Nikita Marks"
+          />
+          <p class="director-card-name">Nikita Marks</p>
+          <p class="director-card-position">Founder & CEO</p>
+          <label for="flip1" class="flip-button plus-button"> </label>
+        </div>
+
+        <div class="director-card-back">
+          <p class="director-card-name back-card-name">Nikita Marks</p>
+          <p class="director-card-quote">
+            "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
+          </p>
+          <div class="card-icon-container">
+            <a href="https://x.com/?mx=2" class="card-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="20" viewBox="0 0 24 20" fill="none">
+              <path d="M24 2.309C23.117 2.701 22.168 2.965 21.172 3.084C22.189 2.475 22.97 1.51 23.337 0.36C22.386 0.924 21.332 1.334 20.21 1.555C19.313 0.598 18.032 0 16.616 0C13.437 0 11.101 2.966 11.819 6.045C7.728 5.84 4.1 3.88 1.671 0.901C0.381 3.114 1.002 6.009 3.194 7.475C2.388 7.449 1.628 7.228 0.965 6.859C0.911 9.14 2.546 11.274 4.914 11.749C4.221 11.937 3.462 11.981 2.69 11.833C3.316 13.789 5.134 15.212 7.29 15.252C5.22 16.875 2.612 17.6 0 17.292C2.179 18.689 4.768 19.504 7.548 19.504C16.69 19.504 21.855 11.783 21.543 4.858C22.505 4.163 23.34 3.296 24 2.309Z"/>
+            </svg></a>
+            <a href="https://www.linkedin.com/" class="card-icon"><svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M2.5 0H18.5C19.6 0 20.5 0.9 20.5 2V18C20.5 19.1 19.6 20 18.5 20H2.5C1.4 20 0.5 19.1 0.5 18V2C0.5 0.9 1.4 0 2.5 0ZM6.5 17V8H3.5V17H6.5ZM5 6.3C4 6.3 3.2 5.5 3.2 4.5C3.2 3.5 4 2.7 5 2.7C6 2.7 6.8 3.5 6.8 4.5C6.8 5.5 6 6.3 5 6.3ZM14.5 17H17.5V11.3C17.5 9.4 15.9 7.8 14 7.8C13.1 7.8 12 8.4 11.5 9.2V8H8.5V17H11.5V11.7C11.5 10.9 12.2 10.2 13 10.2C13.8 10.2 14.5 10.9 14.5 11.7V17Z"/>
+            </svg></a>
+          </div>
+          <label for="flip1" class="flip-button button-x"> </label>
+        </div>
+      </div>
+    </div>
+    <div class="director-card">
+      <input type="checkbox" id="flip2" class="flip-checkbox" />
+
+      <div class="director-card-inner">
+        <div class="director-card-front">
+          <img
+            class="director-card-image"
+            src="img/CristianDuncan.png"
+            alt="Cristian Duncan"
+          />
+          <p class="director-card-name">Cristian Duncan</p>
+          <p class="director-card-position">Co-founder & COO</p>
+          <label for="flip2" class="flip-button plus-button"> </label>
+        </div>
+
+        <div class="director-card-back">
+          <p class="director-card-name back-card-name">Cristian Duncan</p>
+          <p class="director-card-quote">
+            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci voluptates earum unde ipsam, maiores consequuntur!"
+          </p>
+          <div class="card-icon-container">
+            <a href="https://x.com/?mx=2" class="card-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="20" viewBox="0 0 24 20" fill="none">
+              <path d="M24 2.309C23.117 2.701 22.168 2.965 21.172 3.084C22.189 2.475 22.97 1.51 23.337 0.36C22.386 0.924 21.332 1.334 20.21 1.555C19.313 0.598 18.032 0 16.616 0C13.437 0 11.101 2.966 11.819 6.045C7.728 5.84 4.1 3.88 1.671 0.901C0.381 3.114 1.002 6.009 3.194 7.475C2.388 7.449 1.628 7.228 0.965 6.859C0.911 9.14 2.546 11.274 4.914 11.749C4.221 11.937 3.462 11.981 2.69 11.833C3.316 13.789 5.134 15.212 7.29 15.252C5.22 16.875 2.612 17.6 0 17.292C2.179 18.689 4.768 19.504 7.548 19.504C16.69 19.504 21.855 11.783 21.543 4.858C22.505 4.163 23.34 3.296 24 2.309Z"/>
+            </svg></a>
+            <a href="https://www.linkedin.com/" class="card-icon"><svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M2.5 0H18.5C19.6 0 20.5 0.9 20.5 2V18C20.5 19.1 19.6 20 18.5 20H2.5C1.4 20 0.5 19.1 0.5 18V2C0.5 0.9 1.4 0 2.5 0ZM6.5 17V8H3.5V17H6.5ZM5 6.3C4 6.3 3.2 5.5 3.2 4.5C3.2 3.5 4 2.7 5 2.7C6 2.7 6.8 3.5 6.8 4.5C6.8 5.5 6 6.3 5 6.3ZM14.5 17H17.5V11.3C17.5 9.4 15.9 7.8 14 7.8C13.1 7.8 12 8.4 11.5 9.2V8H8.5V17H11.5V11.7C11.5 10.9 12.2 10.2 13 10.2C13.8 10.2 14.5 10.9 14.5 11.7V17Z"/>
+            </svg></a>
+          </div>
+          <label for="flip2" class="flip-button button-x"> </label>
+        </div>
+      </div>
+    </div>
+    <div class="director-card">
+      <input type="checkbox" id="flip3" class="flip-checkbox" />
+
+      <div class="director-card-inner">
+        <div class="director-card-front">
+          <img
+            class="director-card-image"
+            src="img/CruzHamer.png"
+            alt="Cruz Hamer"
+          />
+          <p class="director-card-name">Cruz Hamer</p>
+          <p class="director-card-position">Co-founder & CTO</p>
+          <label for="flip3" class="flip-button plus-button"> </label>
+        </div>
+
+        <div class="director-card-back">
+          <p class="director-card-name back-card-name">Cruz Hamer</p>
+          <p class="director-card-quote">
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+          </p>
+          <div class="card-icon-container">
+            <a href="https://x.com/?mx=2" class="card-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="20" viewBox="0 0 24 20" fill="none">
+              <path d="M24 2.309C23.117 2.701 22.168 2.965 21.172 3.084C22.189 2.475 22.97 1.51 23.337 0.36C22.386 0.924 21.332 1.334 20.21 1.555C19.313 0.598 18.032 0 16.616 0C13.437 0 11.101 2.966 11.819 6.045C7.728 5.84 4.1 3.88 1.671 0.901C0.381 3.114 1.002 6.009 3.194 7.475C2.388 7.449 1.628 7.228 0.965 6.859C0.911 9.14 2.546 11.274 4.914 11.749C4.221 11.937 3.462 11.981 2.69 11.833C3.316 13.789 5.134 15.212 7.29 15.252C5.22 16.875 2.612 17.6 0 17.292C2.179 18.689 4.768 19.504 7.548 19.504C16.69 19.504 21.855 11.783 21.543 4.858C22.505 4.163 23.34 3.296 24 2.309Z"/>
+            </svg></a>
+            <a href="https://www.linkedin.com/" class="card-icon"><svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M2.5 0H18.5C19.6 0 20.5 0.9 20.5 2V18C20.5 19.1 19.6 20 18.5 20H2.5C1.4 20 0.5 19.1 0.5 18V2C0.5 0.9 1.4 0 2.5 0ZM6.5 17V8H3.5V17H6.5ZM5 6.3C4 6.3 3.2 5.5 3.2 4.5C3.2 3.5 4 2.7 5 2.7C6 2.7 6.8 3.5 6.8 4.5C6.8 5.5 6 6.3 5 6.3ZM14.5 17H17.5V11.3C17.5 9.4 15.9 7.8 14 7.8C13.1 7.8 12 8.4 11.5 9.2V8H8.5V17H11.5V11.7C11.5 10.9 12.2 10.2 13 10.2C13.8 10.2 14.5 10.9 14.5 11.7V17Z"/>
+            </svg></a>
+          </div>
+          <label for="flip3" class="flip-button button-x"> </label>
+        </div>
+      </div>
+    </div>
+    <div class="director-card">
+      <input type="checkbox" id="flip4" class="flip-checkbox" />
+
+      <div class="director-card-inner">
+        <div class="director-card-front">
+          <img
+            class="director-card-image"
+            src="img/DrakeHeaton.png"
+            alt="Drake Heaton"
+          />
+          <p class="director-card-name">Drake Heaton</p>
+          <p class="director-card-position">Business Development Lead</p>
+          <label for="flip4" class="flip-button plus-button"> </label>
+        </div>
+
+        <div class="director-card-back">
+          <p class="director-card-name back-card-name">Drake Heaton</p>
+          <p class="director-card-quote">
+            “Lorem ipsum dolor sit amet consectetur adipisicing elit."
+          </p>
+          <div class="card-icon-container">
+            <a href="https://x.com/?mx=2" class="card-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="20" viewBox="0 0 24 20" fill="none">
+              <path d="M24 2.309C23.117 2.701 22.168 2.965 21.172 3.084C22.189 2.475 22.97 1.51 23.337 0.36C22.386 0.924 21.332 1.334 20.21 1.555C19.313 0.598 18.032 0 16.616 0C13.437 0 11.101 2.966 11.819 6.045C7.728 5.84 4.1 3.88 1.671 0.901C0.381 3.114 1.002 6.009 3.194 7.475C2.388 7.449 1.628 7.228 0.965 6.859C0.911 9.14 2.546 11.274 4.914 11.749C4.221 11.937 3.462 11.981 2.69 11.833C3.316 13.789 5.134 15.212 7.29 15.252C5.22 16.875 2.612 17.6 0 17.292C2.179 18.689 4.768 19.504 7.548 19.504C16.69 19.504 21.855 11.783 21.543 4.858C22.505 4.163 23.34 3.296 24 2.309Z"/>
+            </svg></a>
+            <a href="https://www.linkedin.com/" class="card-icon"><svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M2.5 0H18.5C19.6 0 20.5 0.9 20.5 2V18C20.5 19.1 19.6 20 18.5 20H2.5C1.4 20 0.5 19.1 0.5 18V2C0.5 0.9 1.4 0 2.5 0ZM6.5 17V8H3.5V17H6.5ZM5 6.3C4 6.3 3.2 5.5 3.2 4.5C3.2 3.5 4 2.7 5 2.7C6 2.7 6.8 3.5 6.8 4.5C6.8 5.5 6 6.3 5 6.3ZM14.5 17H17.5V11.3C17.5 9.4 15.9 7.8 14 7.8C13.1 7.8 12 8.4 11.5 9.2V8H8.5V17H11.5V11.7C11.5 10.9 12.2 10.2 13 10.2C13.8 10.2 14.5 10.9 14.5 11.7V17Z"/>
+            </svg></a>
+          </div>
+          <label for="flip4" class="flip-button button-x"> </label>
+        </div>
+      </div>
+    </div>
+    <div class="director-card">
+      <input type="checkbox" id="flip5" class="flip-checkbox" />
+
+      <div class="director-card-inner">
+        <div class="director-card-front">
+          <img
+            class="director-card-image"
+            src="img/GriffinWise.png"
+            alt="Griffin Wise"
+          />
+          <p class="director-card-name">Griffin Wise</p>
+          <p class="director-card-position">Lead Marketing</p>
+          <label for="flip5" class="flip-button plus-button"> </label>
+        </div>
+
+        <div class="director-card-back">
+          <p class="director-card-name back-card-name">Griffin Wise</p>
+          <p class="director-card-quote">
+            “Unique perspectives shape unique products, which is what you need to survive these days.”
+          </p>
+          <div class="card-icon-container">
+            <a href="https://x.com/?mx=2" class="card-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="20" viewBox="0 0 24 20" fill="none">
+              <path d="M24 2.309C23.117 2.701 22.168 2.965 21.172 3.084C22.189 2.475 22.97 1.51 23.337 0.36C22.386 0.924 21.332 1.334 20.21 1.555C19.313 0.598 18.032 0 16.616 0C13.437 0 11.101 2.966 11.819 6.045C7.728 5.84 4.1 3.88 1.671 0.901C0.381 3.114 1.002 6.009 3.194 7.475C2.388 7.449 1.628 7.228 0.965 6.859C0.911 9.14 2.546 11.274 4.914 11.749C4.221 11.937 3.462 11.981 2.69 11.833C3.316 13.789 5.134 15.212 7.29 15.252C5.22 16.875 2.612 17.6 0 17.292C2.179 18.689 4.768 19.504 7.548 19.504C16.69 19.504 21.855 11.783 21.543 4.858C22.505 4.163 23.34 3.296 24 2.309Z"/>
+            </svg></a>
+            <a href="https://www.linkedin.com/" class="card-icon"><svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M2.5 0H18.5C19.6 0 20.5 0.9 20.5 2V18C20.5 19.1 19.6 20 18.5 20H2.5C1.4 20 0.5 19.1 0.5 18V2C0.5 0.9 1.4 0 2.5 0ZM6.5 17V8H3.5V17H6.5ZM5 6.3C4 6.3 3.2 5.5 3.2 4.5C3.2 3.5 4 2.7 5 2.7C6 2.7 6.8 3.5 6.8 4.5C6.8 5.5 6 6.3 5 6.3ZM14.5 17H17.5V11.3C17.5 9.4 15.9 7.8 14 7.8C13.1 7.8 12 8.4 11.5 9.2V8H8.5V17H11.5V11.7C11.5 10.9 12.2 10.2 13 10.2C13.8 10.2 14.5 10.9 14.5 11.7V17Z"/>
+            </svg></a>
+          </div>
+          <label for="flip5" class="flip-button button-x"> </label>
+        </div>
+      </div>
+    </div>
+    <div class="director-card">
+      <input type="checkbox" id="flip6" class="flip-checkbox" />
+
+      <div class="director-card-inner">
+        <div class="director-card-front">
+          <img
+            class="director-card-image"
+            src="img/AdenAllan.png"
+            alt="Aden Allan"
+          />
+          <p class="director-card-name">Aden Allan</p>
+          <p class="director-card-position">Head of Talent</p>
+          <label for="flip6" class="flip-button plus-button"> </label>
+        </div>
+
+        <div class="director-card-back">
+          <p class="director-card-name back-card-name">Aden Allan</p>
+          <p class="director-card-quote">
+            “Empowered teams create truly amazing products. Set the north star
+            and let them follow it.”
+          </p>
+          <div class="card-icon-container">
+            <a href="https://x.com/?mx=2" class="card-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="20" viewBox="0 0 24 20" fill="none">
+              <path d="M24 2.309C23.117 2.701 22.168 2.965 21.172 3.084C22.189 2.475 22.97 1.51 23.337 0.36C22.386 0.924 21.332 1.334 20.21 1.555C19.313 0.598 18.032 0 16.616 0C13.437 0 11.101 2.966 11.819 6.045C7.728 5.84 4.1 3.88 1.671 0.901C0.381 3.114 1.002 6.009 3.194 7.475C2.388 7.449 1.628 7.228 0.965 6.859C0.911 9.14 2.546 11.274 4.914 11.749C4.221 11.937 3.462 11.981 2.69 11.833C3.316 13.789 5.134 15.212 7.29 15.252C5.22 16.875 2.612 17.6 0 17.292C2.179 18.689 4.768 19.504 7.548 19.504C16.69 19.504 21.855 11.783 21.543 4.858C22.505 4.163 23.34 3.296 24 2.309Z"/>
+            </svg></a>
+            <a href="https://www.linkedin.com/" class="card-icon"><svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M2.5 0H18.5C19.6 0 20.5 0.9 20.5 2V18C20.5 19.1 19.6 20 18.5 20H2.5C1.4 20 0.5 19.1 0.5 18V2C0.5 0.9 1.4 0 2.5 0ZM6.5 17V8H3.5V17H6.5ZM5 6.3C4 6.3 3.2 5.5 3.2 4.5C3.2 3.5 4 2.7 5 2.7C6 2.7 6.8 3.5 6.8 4.5C6.8 5.5 6 6.3 5 6.3ZM14.5 17H17.5V11.3C17.5 9.4 15.9 7.8 14 7.8C13.1 7.8 12 8.4 11.5 9.2V8H8.5V17H11.5V11.7C11.5 10.9 12.2 10.2 13 10.2C13.8 10.2 14.5 10.9 14.5 11.7V17Z"/>
+            </svg></a>
+          </div>
+          <label for="flip6" class="flip-button button-x"> </label>
+        </div>
+      </div>
+    </div> 
+  </div>
+</div>
     <!-- Second section ("Some of our clients") -->
 
     <section class="container-some-of-our-clients">
@@ -43,15 +286,24 @@
     </section>
 
     <!-- Contact section ("Ready to get started") -->
-    <div></div>
+    <div class="contactcnt">
+      <div class="oneline takeittotheleft">
+          <p>Ready to get started?</p>
+      </div>
+      <div class="oneline takeittotheright">
+          <a href="contact.html">
+              <button class="btncnt"> contact us</button>
+          </a>
+      </div>
+   </div>
 
     <!-- Footer -->
     <footer>
       <div class="container-position">
        <div> 
-         <div><img class="my-team" src="img/myteam.png" alt="My Team" /> 
+         <div><img class="my-team" src="img/MyTeamIcon.png" alt="My Team" /> 
          </div>
-         <div class=" button-position">
+         <div class="container-position button-position">
            <div>
              <a class="home-button" href="index.html">home</a>
            </div>
