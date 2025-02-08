@@ -78,40 +78,9 @@
   bottom: 0;
   right: 10.31rem;
 }
+/* Media for tablet Hero section */
 
-@media screen and (min-width: 768px) and (max-width: 1439px) {
-  /* .build-section {
-    height: 44.375rem;
-    padding: 6.25rem 6.12rem 6.25rem 6.06rem;
-  }
-
-  .build-container {
-    display: flex;
-    flex-direction: column;
-    max-width: 35.8125rem;
-  }
-
-  .build-left-red-line {
-    margin-bottom: 2rem;
-  }
-
-  .build-left-title {
-    max-width: 27.8125rem;
-  }
-
-  .build-left-title > h1 {
-    color: #fff;
-    font-family: "Livvic";
-    font-size: 2rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 2rem;
-  }
-
-  .build-right-side {
-    padding-top: 4rem;
-  }
-*/
+@media screen and (max-width: 1439px) {
 
   .hero-section {
     height: 29.75rem;
@@ -169,6 +138,22 @@
     transform: translateX(-50%)
   }
 }
+
+/* Media for mobile section Hero Phone media query max 767px */
+
+@media screen and (max-width: 767px) {
+
+  .container-header {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    max-width: 20.4375rem;
+  }
+
+  .left-find-talent h1 {
+    font-size: 2.5rem;
+  }
+}
+
 
 /* Build and manage section CSS */
 
