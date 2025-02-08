@@ -1,156 +1,5 @@
-
-.hero-section{
-    display: flex;
-    flex-wrap: wrap;
-    position: relative;
-    width: 90rem;
-    height: 43.75rem;
-    margin: 0;
-    background-color: #014E56;
-    font-family: 'Livvic', sans-serif;
-}
-
-.container-header {
-    position: absolute;
-    display: flex;
-    overflow: hidden;
-    align-items: center;
-    justify-content: space-between ;
-    gap: 0.3125rem;
-    background-color: #014E56;
-    top: 15.63rem;
-    right: 10.31rem;
-    bottom: 15.62rem;
-    left: 10.31rem;
-}
-/* Big bold text  on your left */
-.left-find-talent{
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    max-width: 39.69rem;
-    height: 12.5rem;
-    top: 15.63rem;
-    right: 10.31rem;
-    bottom: 15.62rem;
-    left: 10.31rem;   
-}
-
-    .left-find-talent h1 {
-    margin: 0;
-    white-space: normal;
-    text-align: left;
-    font-size: 6.25rem;
-    font-weight: 700;
-    line-height: 6.25rem;
-    color: white;
-}
-.left-find-talent h1:first-child{
-    display: inline-block;
-    width: fit-content;
-}
-
-.left-find-talent span {
-    font-weight: 700;
-    font-size: 6.25reem;
-    line-height: 6.25rem;
-    color: #f67e7e;
-}
-
-/* Right text */
-.right-finding-people {
-    font-weight: 600;
-    font-style: normal;
-    max-width:  27.81rem;
-    padding-top: 4.69rem;
-    display: inline-block;
-    text-align: left;
-    display: flex;
-    flex: 1;
-    top: 20.81rem;
-    right: 10.31rem;
-    bottom: 15.94rem;
-    left: 51.88rem;
-    font-size: 18px;
-    color: #ffffff;
-    line-height: 1.75rem;
-}
-
-
-/* Graphic header */
-.graphics-container {
-    display: flex;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    pointer-events: none;
-}
-.graphic {
-
-    position: absolute;
-
-
-}
-.graphic-top-left {
-    top: 15.63rem;
-    right: 83.75rem;
-    bottom: 15.62rem;
-    left: 0;
-}
-.graphic-bottom-right-strips {
-    width: 15.63rem;
-    height: 2.75rem;
-    top: 37.5rem;
-    right: 26.44rem;
-    bottom: 3.5rem;
-    left: 57.31rem;
-    z-index: 1;
-
-}
-.graphic-grey-bottom-semioval {
-    top: 37.5rem;
-    right: 20.19rem;
-    bottom: 0;
-    left: 57.31rem;
-
-}
-.graphic-black-bottom-behind-red-semioval{
-    top: 37.5rem;
-    right: 16510.31rem;
-    bottom: 0;
-    left: 67.19rem;
-
-}
-.graphic-red-bottom-semioval{
-    top: 37.5rem;
-    right: 189.49rem;
-    bottom: 6.25rem;
-    left: 65.66rem;
-    z-index: 1;
-}
-
-.graphic-rectangle {
-    flex-shrink: 0;
-    top: 37.5rem;
-    right: 10.31rem;
-    bottom: 3.56rem;
-    left: 77rem;
-    width: 2.69rem;
-    height: 2.69rem;
-}
-
-.graphic-minirectangle{
-    top: 15.63rem;
-    right: 35rem;
-    bottom: 27.88rem;
-    left: 51.88rem;
-}
-
 @import url(./colors.css);
 @import url(./buttons.css);
-/* Build and manage section CSS */
 @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap");
 
 * {
@@ -158,6 +7,150 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.hero-section {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  width: 90rem;
+  height: 43.75rem;
+  margin: 0;
+  background-color: #014e56;
+  font-family: "Livvic", sans-serif;
+}
+
+.container-header {
+  position: absolute;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.3125rem;
+  background-color: #014e56;
+  top: 15.63rem;
+  right: 10.31rem;
+  bottom: 15.62rem;
+  left: 10.31rem;
+}
+/* Big bold text  on your left */
+.left-find-talent {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  max-width: 39.69rem;
+  height: 12.5rem;
+  top: 15.63rem;
+  right: 10.31rem;
+  bottom: 15.62rem;
+  left: 10.31rem;
+}
+
+.left-find-talent h1 {
+  margin: 0;
+  white-space: normal;
+  text-align: left;
+  font-size: 6.25rem;
+  font-weight: 700;
+  line-height: 6.25rem;
+  color: white;
+}
+.left-find-talent h1:first-child {
+  display: inline-block;
+  width: fit-content;
+}
+
+.left-find-talent span {
+  font-weight: 700;
+  font-size: 6.25reem;
+  line-height: 6.25rem;
+  color: #f67e7e;
+}
+
+/* Right text */
+.right-finding-people {
+  font-weight: 600;
+  font-style: normal;
+  max-width: 27.81rem;
+  padding-top: 4.69rem;
+  display: inline-block;
+  text-align: left;
+  display: flex;
+  flex: 1;
+  top: 20.81rem;
+  right: 10.31rem;
+  bottom: 15.94rem;
+  left: 51.88rem;
+  font-size: 18px;
+  color: #ffffff;
+  line-height: 1.75rem;
+}
+
+/* Graphic header */
+.graphics-container {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+.graphic {
+  position: absolute;
+}
+.graphic-top-left {
+  top: 15.63rem;
+  right: 83.75rem;
+  bottom: 15.62rem;
+  left: 0;
+}
+.graphic-bottom-right-strips {
+  width: 15.63rem;
+  height: 2.75rem;
+  top: 37.5rem;
+  right: 26.44rem;
+  bottom: 3.5rem;
+  left: 57.31rem;
+  z-index: 1;
+}
+.graphic-grey-bottom-semioval {
+  top: 37.5rem;
+  right: 20.19rem;
+  bottom: 0;
+  left: 57.31rem;
+}
+.graphic-black-bottom-behind-red-semioval {
+  top: 37.5rem;
+  right: 16510.31rem;
+  bottom: 0;
+  left: 67.19rem;
+}
+.graphic-red-bottom-semioval {
+  top: 37.5rem;
+  right: 189.49rem;
+  bottom: 6.25rem;
+  left: 65.66rem;
+  z-index: 1;
+}
+
+.graphic-rectangle {
+  flex-shrink: 0;
+  top: 37.5rem;
+  right: 10.31rem;
+  bottom: 3.56rem;
+  left: 77rem;
+  width: 2.69rem;
+  height: 2.69rem;
+}
+
+.graphic-minirectangle {
+  top: 15.63rem;
+  right: 35rem;
+  bottom: 27.88rem;
+  left: 51.88rem;
+}
+
+/* Build and manage section CSS */
 
 .build-section {
   height: 42.8rem;
@@ -176,7 +169,7 @@
   height: 25.25rem;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .build-left-side {
@@ -215,7 +208,7 @@
 
 .build-right-advance-box {
   max-width: 33.75rem;
-  height: 5.875rem;
+  /* height: 5.875rem; */
   display: flex;
   flex-direction: row;
   gap: 1.44rem;
@@ -261,11 +254,111 @@
   right: -7rem;
   max-width: 12.5rem;
   max-height: 15.25rem;
-  width: 20vw;  /* Makes it responsive */
-  height: auto; /* Maintains aspect ratio */
+  /* width: 20vw; Makes it responsive
+  height: auto; Maintains aspect ratio */
 }
-/* footer */
 
+/* Tablet media query min 767px and max-width: 1440px*/
+
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+  .build-section {
+    height: 44.375rem;
+    padding: 6.25rem 6.12rem 6.25rem 6.06rem;
+  }
+
+  .build-container {
+    display: flex;
+    flex-direction: column;
+    max-width:35.8125rem;
+  }
+
+  .build-left-red-line {
+    margin-bottom: 2rem;
+  }
+
+  .build-left-title {
+    max-width: 27.8125rem;
+  }
+
+  .build-left-title > h1 {
+    color: #fff;
+    font-family: "Livvic";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2rem;
+  }
+
+  .build-right-side {
+    padding-top: 4rem;
+  }
+
+  .bg-element-svg-img {
+    top: 0.1rem;
+    right: -7rem;
+  }
+}
+
+/* Phone media query max 767px */
+
+@media screen and (max-width: 767px) {
+  .build-section {
+    height: 67.0625rem;
+    padding: 4rem 1.5rem;
+  }
+
+  .build-container {
+    display: flex;
+    flex-direction: column;
+    max-width:35.8125rem;
+  }
+
+  .build-left-side {
+    max-width: 15rem;
+    max-height: 12.25rem;
+  }
+
+  .build-left-red-line {
+    margin-bottom: 2rem;
+  }
+
+  .build-left-title {
+    max-width: 15rem;
+  }
+
+  .build-left-title > h1 {
+    color: #fff;
+    font-family: "Livvic";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2rem;
+  }
+
+  .build-right-advance-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .build-right-side{
+    padding-top: 3rem;
+  }
+
+  .build-right-info {
+    max-width: 20.4375rem;
+    align-items: center;
+    text-align: center;
+  }
+
+  .bg-element-svg-img {
+    top: 0.1rem;
+    right: -7rem;
+  }
+}
+
+/* footer */
 
 footer {
   background-color: #002529;
@@ -296,8 +389,7 @@ footer {
   line-height: 1.75rem;
 }
 
-
- .home-button:hover {
+.home-button:hover {
   color: #f67e7e;
 }
 
@@ -326,7 +418,7 @@ footer {
 .address {
   width: 27.8125rem;
   height: 6.25rem;
-  padding-left: 4rem;
+  padding-left: 5.4rem;
   padding-top: 3rem;
   margin: 0;
   color: #fff;
@@ -340,11 +432,11 @@ footer {
 
 .social-icon {
   display: flex;
-  align-items: center;
+  justify-content: right;
   height: 1.5rem;
   padding-left: 17.25rem;
-  padding-right: 6.31rem;
-  padding-top: 4rem;
+  padding-right: 10.31rem;
+  padding-top: 3.1rem;
   gap: 1rem;
 }
 
@@ -357,7 +449,7 @@ footer {
   font-weight: 500;
   line-height: 1.5625rem;
   opacity: 0.6;
-  padding-top: 3.8rem;
+  padding-top: 4.55rem;
   padding-right: 10.31rem;
   letter-spacing: 0.01rem;
 }
@@ -368,4 +460,173 @@ svg {
 
 svg:hover {
   fill: #f67e7e;
+}
+
+/* "Ready to get started?" Bar*/
+.contactcnt {
+  display: flex;
+  background-color: #f67e7e;
+  background-image: url("../img/Contact_bar.png");
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  height: 12.5rem;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* aligning text of "Ready to get started?" bar*/
+.oneline {
+  margin: auto;
+  font-family: "Livvic";
+  text-align: center;
+  font-size: 1.875rem;
+  color: #012f34;
+  font-weight: bold;
+  word-wrap: normal;
+}
+/* Button style and hover*/
+.btncnt {
+  width: 9.5625rem;
+  height: 3rem;
+  flex-shrink: 0;
+  border-radius: 1.5rem;
+  border: 2px solid;
+  font-family: Livvic;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.75rem;
+  color: #012f34;
+  border-color: #012f34;
+  background-color: transparent;
+}
+.btncnt:hover {
+  color: white;
+  background-color: #012f34;
+}
+
+/* Text and button positions in "Ready to get started?" bar*/
+.takeittotheleft {
+  flex: none;
+  font-size: 2.813rem;
+  font-weight: bolder;
+  padding-left: 20rem;
+}
+.takeittotheright {
+  flex: auto;
+}
+
+/* hero sekcija */
+
+.description {
+  background-color: #004047;
+  color: #fff;
+  text-align: center;
+  height: 46.5625rem;
+}
+
+.description-header {
+  max-width: 58.25rem;
+  margin: 0 auto;
+}
+
+.description-header h1 {
+  text-align: center;
+  font-family: Livvic;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3rem;
+}
+
+.success-stories {
+  color: #79c8c7;
+}
+
+.atsiliepimas {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  margin-top: 3.5rem;
+}
+
+.atsiliepimo_kortele {
+  flex: 1;
+  min-width: 300px;
+  max-width: 350px;
+  margin: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.citata {
+  font-family: Livvic;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.5625rem;
+  margin-bottom: 30px;
+  min-height: 100px;
+}
+
+.autoriaus_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.atsiliepimo_autorius {
+  color: #79c8c7;
+  text-align: center;
+  font-family: Livvic;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.75rem;
+  margin: 1.5rem 0 5px;
+}
+
+.pareigos {
+  color: #fff;
+  text-align: center;
+  font-family: Livvic;
+  font-size: 0.8125rem;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 1.125rem;
+}
+
+.autoriaus_nuotrauka {
+  width: 3.875rem;
+  height: 3.875rem;
+  border-radius: 3.875rem;
+  border: 2px solid #c4fffe;
+  margin-top: 2rem;
+}
+
+.virsaus_logo {
+  background: url(/img/second-section-top-left.svg);
+  width: 9.1875rem;
+  height: 6.25rem;
+}
+
+.apacios_logo {
+  background: url(/img/second-section-bot-right.svg) no-repeat;
+  width: 12.5rem;
+  height: 15.25rem;
+  margin-left: auto;
+  margin-top: 5.25rem;
+}
+
+.atsiliepimai_quotes {
+  background: url(/img/quotes.svg);
+  width: 4.1875rem;
+  height: 3.5rem;
+  position: absolute;
+  z-index: -1;
+  left: 40%;
+  top: -2.5rem;
 }
