@@ -204,6 +204,7 @@ svg:hover {
   .address {
     padding-top: 1.45rem;
     padding-left: 0rem;
+    padding-right: 0rem;
     width: auto;
     text-align: -webkit-center;
     }
