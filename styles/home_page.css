@@ -406,8 +406,9 @@ svg:hover {
   }
   .address {
     text-align: right;
-    width: 16.77rem;
+    width: 20rem;
     padding-top: 3.49rem;
+    padding-right: 3.26rem;
   }
   .footer-address-numbers {
     margin-right: 0.25rem;
@@ -418,12 +419,56 @@ svg:hover {
   }
   .address-box {
     text-align: -webkit-right;
-    padding-right: 3rem;
   }
   .copyright-box {
     width: 100vw;
   }
 }
+
+@media only screen and (max-width: 767px) {
+  /*Mobile*/
+  .container-position {
+    grid-template-columns: auto;
+  }
+  footer {
+    height: 27rem;
+  }
+  .mobile-my-team-alignment {
+    text-align-last: center;
+  }
+  .my-team {
+    margin-top: 4.1rem;
+    margin-left: 0rem;
+  }
+  .button-position {
+    text-align: center;
+    padding-left: 0rem;
+    padding-top: 1.29rem;
+    width: auto;
+    justify-content: center;
+  }
+  .address-box {
+    align-content: center;
+    padding-right: 0rem;
+  }
+  .address {
+    padding-top: 1.45rem;
+    padding-left: 0rem;
+    width: auto;
+    text-align: -webkit-center;
+    }
+  .social-icon {
+   padding-left: 0rem;
+   padding-right: 0rem;
+   justify-content: center;
+   padding-top: 4.05rem;
+  }
+  .copyright {
+   padding-right: 0rem;
+   text-align: -webkit-center;
+   padding-top: 2.457rem;
+  }
+  }
 
 /* "Ready to get started?" Bar*/
 .contactcnt {
