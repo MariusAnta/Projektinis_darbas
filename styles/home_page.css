@@ -9,146 +9,165 @@
 }
 
 .hero-section {
-  display: flex;
-  /* flex-wrap: wrap; */
-  /* position: relative; */
-  /* width: 90rem; */
-  height: 43.75rem;
-  margin: 0;
   background-color: #014e56;
-  font-family: "Livvic", sans-serif;
+  height: 28.13rem;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .container-header {
-  position: absolute;
+  width: 100%;
+  max-width: 69.375rem;
+  height: 12.5rem;
   display: flex;
-  overflow: hidden;
-  align-items: center;
+  flex-direction: row;
   justify-content: space-between;
-  gap: 0.3125rem;
-  background-color: #014e56;
-  top: 15.63rem;
-  right: 10.31rem;
-  bottom: 15.62rem;
-  left: 10.31rem;
 }
 
 /* Big bold text  on your left */
 .left-find-talent {
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  max-width: 39.69rem;
-  height: 12.5rem;
-  top: 15.63rem;
-  right: 10.31rem;
-  bottom: 15.62rem;
-  left: 10.31rem;
+  max-width: 39.6875rem;
 }
 
 .left-find-talent h1 {
-  margin: 0;
-  white-space: normal;
-  text-align: left;
+  color: #fff;
+  font-family: Livvic;
   font-size: 6.25rem;
+  font-style: normal;
   font-weight: 700;
-  line-height: 6.25rem;
-  color: white;
-}
-.left-find-talent h1:first-child {
-  display: inline-block;
-  width: fit-content;
+  line-height: 6.25rem; /* 100% */
 }
 
 .left-find-talent span {
-  font-weight: 700;
-  font-size: 6.25reem;
-  line-height: 6.25rem;
   color: #f67e7e;
 }
 
 /* Right text */
 .right-finding-people {
-  font-weight: 600;
+  max-width: 27.8125rem;
+}
+.right-finding-people p {
+  color: #fff;
+  font-family: Livvic;
+  font-size: 1.125rem;
   font-style: normal;
-  max-width: 27.81rem;
-  padding-top: 4.69rem;
-  display: inline-block;
-  text-align: left;
-  display: flex;
-  flex: 1;
-  top: 20.81rem;
-  right: 10.31rem;
-  bottom: 15.94rem;
-  left: 51.88rem;
-  font-size: 18px;
-  color: #ffffff;
-  line-height: 1.75rem;
+  font-weight: 600;
+  line-height: 1.75rem; /* 155.556% */
+  margin-top: 4.95rem;
 }
 
-/* Graphic header */
-.graphics-container {
-  display: flex;
+.right-find-people-blue-line {
+  width: 3.125rem;
+  height: 0.25rem;
+  background: #79c8c7;
+}
+
+.svg2 {
+  width: 12.5rem;
+  height: 12.5rem;
   position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  pointer-events: none;
+  top: 0rem;
+  left: -6.5rem;
 }
-.graphic {
+
+.svg1 {
   position: absolute;
-}
-.graphic-top-left {
-  top: 15.63rem;
-  right: 83.75rem;
-  bottom: 15.62rem;
-  left: 0;
-}
-.graphic-bottom-right-strips {
-  width: 15.63rem;
-  height: 2.75rem;
-  top: 37.5rem;
-  right: 26.44rem;
-  bottom: 3.5rem;
-  left: 57.31rem;
-  z-index: 1;
-}
-.graphic-grey-bottom-semioval {
-  top: 37.5rem;
-  right: 20.19rem;
   bottom: 0;
-  left: 57.31rem;
-}
-.graphic-black-bottom-behind-red-semioval {
-  top: 37.5rem;
-  right: 16510.31rem;
-  bottom: 0;
-  left: 67.19rem;
-}
-.graphic-red-bottom-semioval {
-  top: 37.5rem;
-  right: 189.49rem;
-  bottom: 6.25rem;
-  left: 65.66rem;
-  z-index: 1;
-}
-
-.graphic-rectangle {
-  flex-shrink: 0;
-  top: 37.5rem;
   right: 10.31rem;
-  bottom: 3.56rem;
-  left: 77rem;
-  width: 2.69rem;
-  height: 2.69rem;
 }
 
-.graphic-minirectangle {
-  top: 15.63rem;
-  right: 35rem;
-  bottom: 27.88rem;
-  left: 51.88rem;
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  /* .build-section {
+    height: 44.375rem;
+    padding: 6.25rem 6.12rem 6.25rem 6.06rem;
+  }
+
+  .build-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 35.8125rem;
+  }
+
+  .build-left-red-line {
+    margin-bottom: 2rem;
+  }
+
+  .build-left-title {
+    max-width: 27.8125rem;
+  }
+
+  .build-left-title > h1 {
+    color: #fff;
+    font-family: "Livvic";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2rem;
+  }
+
+  .build-right-side {
+    padding-top: 4rem;
+  }
+*/
+
+  .hero-section {
+    height: 29.75rem;
+  }
+
+  .container-header {
+    flex-direction: column;
+    align-items: center;
+    justify-content: unset;
+    gap: 1.5rem;
+  }
+
+  .left-find-talent {
+    max-width: 42.6875rem;
+  }
+
+  .left-find-talent h1 {
+    color: #fff;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.5rem; /* 87.5% */
+  }
+
+  .right-find-people-blue-line {
+    visibility: hidden;
+  }
+
+  .right-finding-people {
+    max-width: 28.5625rem;
+  }
+
+  .right-finding-people p {
+    color: #fff;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.75rem; /* 186.667% */
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 9.75rem;
+  }
+
+  .svg2 {
+    visibility: hidden;
+  }
+  .svg1 {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%)
+  }
 }
 
 /* Build and manage section CSS */
@@ -261,7 +280,7 @@
 
 /* Tablet media query min 767px and max-width: 1440px*/
 
-@media screen and (min-width: 768px) and (max-width: 1440px) {
+@media screen and (min-width: 768px) and (max-width: 1439px) {
   .build-section {
     height: 44.375rem;
     padding: 6.25rem 6.12rem 6.25rem 6.06rem;
@@ -270,7 +289,7 @@
   .build-container {
     display: flex;
     flex-direction: column;
-    max-width:35.8125rem;
+    max-width: 35.8125rem;
   }
 
   .build-left-red-line {
@@ -311,7 +330,7 @@
   .build-container {
     display: flex;
     flex-direction: column;
-    max-width:35.8125rem;
+    max-width: 35.8125rem;
   }
 
   .build-left-side {
@@ -343,7 +362,7 @@
     text-align: center;
   }
 
-  .build-right-side{
+  .build-right-side {
     padding-top: 3rem;
   }
 
