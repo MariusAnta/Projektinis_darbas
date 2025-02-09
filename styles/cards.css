@@ -134,14 +134,15 @@
   visibility: visible;
 }
 
-
-@media only screen and (max-width: 1439px) { /*Tablet*/
+@media only screen and (max-width: 1439px) {
+  /*Tablet*/
   .director-card-front,
   .director-card-back {
-    
+    width: 17.5625rem;
+    height: 15.8125rem;
   }
   .director-card-quote {
-    color: #FFF;
+    color: #fff;
     width: 14.5625rem;
     text-align: center;
     font-family: Livvic;
@@ -152,15 +153,16 @@
     margin-top: 0.4rem;
   }
   .director-card-position {
-   padding-top: 0.06rem;
+    padding-top: 0.06rem;
   }
-  .card-icon-container{
+  .card-icon-container {
     gap: 0.9rem;
   }
 }
 
-@media only screen and (max-width: 767px){ /*Mobile*/
-  .director-card-front, 
+@media only screen and (max-width: 767px) {
+  /*Mobile*/
+  .director-card-front,
   .director-card-back {
     width: 20.4375rem;
     height: 15.8125rem;
@@ -170,5 +172,20 @@
   }
   .plus-button {
     top: 14rem;
+  }
+}
+@media only screen and (max-width: 374px) {
+  .director-card-front,
+  .director-card-back {
+    width: 100vw;
+  }
+  .director-card-position {
+    margin-top: 0.8rem;
+  }
+  .director-card-image {
+    max-height: 5rem;
+    max-width: 5rem;
+    min-width: 2.5rem;
+    min-height: 2.5rem;
   }
 }
