@@ -384,7 +384,7 @@ footer {
   gap: 2.6rem;
 }
 
-.home-button {
+.home-button, .about-button {
   text-decoration: none;
   color: #fff;
   font-family: Livvic;
@@ -398,24 +398,12 @@ footer {
   color: #f67e7e;
 }
 
-.about-button {
-  text-decoration: none;
-  color: #fff;
-  font-family: Livvic;
-  font-size: 1.125rem;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 1.75rem;
-}
-
 .about-button:hover {
   color: #f67e7e;
 }
 
 .my-team {
   width: 10rem;
-  height: 2rem;
-  height: 2.5rem;
   margin-top: 3rem;
   margin-left: 10.31rem;
 }
@@ -444,11 +432,11 @@ footer {
   justify-content: right;
   height: 1.5rem;
   padding-left: 17.25rem;
-  padding-right: 6rem;
-  padding-top: 3.86rem;
   padding-right: 10.31rem;
   padding-top: 3.1rem;
   gap: 1rem;
+  position: relative;
+  z-index: 10;
 }
 
 .copyright {
@@ -479,7 +467,7 @@ svg:hover {
   /*tablet*/
   .container-position {
     display: grid;
-    grid-template-columns: 28.69rem auto;
+    grid-template-columns: 15rem auto;
   }
 
   footer {
@@ -514,7 +502,7 @@ svg:hover {
     text-align: right;
     width: 20rem;
     padding-top: 3.49rem;
-    padding-right: 3.26rem;
+    padding-right: 2.56rem;
   }
   .footer-address-numbers {
     margin-right: 0.25rem;
@@ -631,6 +619,35 @@ svg:hover {
   flex: auto;
 }
 
+@media only screen and (max-width: 1439px){
+  .contactcnt {
+    height: 13.5rem;
+    background-position: left 125%;
+  }
+  .takeittotheleft {
+    padding-left: 6rem;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .contactcnt {
+    height: 20.875rem;
+    flex-direction: column;
+    padding-top: 4rem;
+    background-position: left 115%;
+  }
+  .takeittotheleft {
+    padding-left: 0;
+    font-size: 2.667rem;
+    max-width: 20.438rem;
+    word-wrap: break-word;
+  }
+
+  .takeittotheright {
+    padding-top: 2rem;
+  }
+
+}
 /* hero sekcija */
 
 .description {
