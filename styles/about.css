@@ -541,6 +541,36 @@ svg:hover {
   flex:auto;
 }
 
+@media only screen and (max-width: 1439px){
+  .contactcnt {
+    height: 13.5rem;
+    background-position: left 125%;
+  }
+  .takeittotheleft {
+    padding-left: 6rem;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .contactcnt {
+    height: 20.875rem;
+    flex-direction: column;
+    padding-top: 4rem;
+    background-position: left 115%;
+  }
+  .takeittotheleft {
+    padding-left: 0;
+    font-size: 2.667rem;
+    max-width: 20.438rem;
+    word-wrap: break-word;
+  }
+
+  .takeittotheright {
+    padding-top: 2rem;
+  }
+
+}
+
 
 /* hero section */
 
