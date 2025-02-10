@@ -3,89 +3,75 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles/home_page.css" />
-    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/header.css" />
     <title>Home page</title>
   </head>
   <body>
     <!--Header -  nav bar -->
     <header>
       <nav class="header-nav">
-        <img class="header-logo" src="img/header-logo.svg" alt="header logo">
+        <img class="header-logo" src="img/header-logo.svg" alt="header logo" />
         <div class="nav_home_about">
-            <a class="header-link header-home-link" href="index.html">home</a>
-            <a class="header-link" href="about.html">about</a>
+          <a class="header-link header-home-link" href="index.html">home</a>
+          <a class="header-link" href="about.html">about</a>
         </div>
         <div class="header-contact-button">
-        <a href="contact.html" class="contact_us_button">contact us</a>
-     </div>
-      <!-- Menu toggle (Checkbox) -->
-      <input type="checkbox" id="menu-toggle" class="menu-checkbox">
-      <label for="menu-toggle" class="menu-button">
-        <img src="img/mobile-header-toggle-menu.svg" alt="menu tab">
-      </label>
-  
-      <!-- Pop-up Menu -->
-      <div class="popup-menu">
-        <div class="popup-content">
-          <label for="menu-toggle" class="close-btn">
-            <img src="img/mobile-header-x-button.svg" alt="x button from mobile toggle">
-          </label>
-          <a class="header-link mobile-home-btn" href="index.html">Home</a>
-          <a class="header-link mobile-about-btn" href="about.html">About</a>
-          <a class="contact_us_button mobile-contact-btn" href="contact.html">Contact Us</a>
-          <div class="menu-bottom-image"></div>
+          <a href="contact.html" class="contact_us_button">contact us</a>
         </div>
-      </div>
-    </nav>
+        <!-- Menu toggle (Checkbox) -->
+        <input type="checkbox" id="menu-toggle" class="menu-checkbox" />
+        <label for="menu-toggle" class="menu-button">
+          <img src="img/mobile-header-toggle-menu.svg" alt="menu tab" />
+        </label>
+
+        <!-- Pop-up Menu -->
+        <div class="popup-menu">
+          <div class="popup-content">
+            <label for="menu-toggle" class="close-btn">
+              <img
+                src="img/mobile-header-x-button.svg"
+                alt="x button from mobile toggle"
+              />
+            </label>
+            <a class="header-link mobile-home-btn" href="index.html">Home</a>
+            <a class="header-link mobile-about-btn" href="about.html">About</a>
+            <a class="contact_us_button mobile-contact-btn" href="contact.html"
+              >Contact Us</a
+            >
+            <div class="menu-bottom-image"></div>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <!-- Hero section ("Find the best talent")-->
-    <div></div>
 
-     <div class="hero-section">
+    <div class="hero-section">
       <div class="container-header">
-      <div class="left-find-talent">
-          <h1>Find the</h1>
-          <h1>best <span>talent</span></h1>
-      </div>
-      
-      <div class="right-finding-people">
-          <p>Finding the right people and building high performing teams can be hard. Most companies aren’t tapping into the abundance of global talent. We’re about to change that.</p>
+        <div class="left-find-talent">
+          <h1>Find the best <span>talent</span></h1>
         </div>
+
+        <div class="right-finding-people">
+          <div class="right-find-people-blue-line"></div>
+          <p>
+            Finding the right people and building high performing teams can be
+            hard. Most companies aren't tapping into the abundance of global
+            talent. We're about to change that.
+          </p>
+        </div>
+      </div>
+      <img class="svg1" src="img/bg-pattern-home-2.svg" alt="hero pattern" />
+      <img class="svg2" src="img/bg-pattern-home-1.svg" alt="hero pattern" />
     </div>
 
-    <!-- Graphics shapes -->
-      <div class="graphics-container">
-          <div class="graphic graphic-top-left">
-            <img src="/img/green-semioval-with-dots.png" alt="Left top graphics">
-          </div>
-          <div class="graphic graphic-bottom-right-strips">
-            <img src="img/strips.png" alt="Rectangle Strips on the bottom">
-          </div>
-          <div class="graphic graphic-grey-bottom-semioval">
-            <img src="img/Grey-semioval.png" alt="Grey semioval on the bottom">
-          </div>
-         <div class="graphic graphic-red-bottom-semioval">
-             <img src="img/red-semioval.png" alt="Red semioval on the bottom">
-            </div>
-            <div class="graphic graphic-black-bottom-behind-red-semioval">
-              <img src="img/green-oval.png" alt="Black oval begind the red one">
-            </div>
-          <div class="graphic graphic-rectangle">
-              <img src="img/Rectangle.png" alt="Big rectangle on the bottom">
-          </div>
-          <!-- Minirectangle which float on top of the smaller text -->
-          <div class="graphic graphic-minirectangle">
-            <img src="img/BabyRectangle.png" alt="MINI rectangle">
-        </div>
-      </div>
-    </div>
-        
-    
     <!--First section ("Build & manage distributed teams")  -->
     <div class="build-section">
       <div class="build-container">
@@ -140,97 +126,100 @@
           </div>
         </div>
       </div>
-        <img class="bg-element-svg-img" src="img/bg-pattern-home-3.svg" alt="background pattern">
+      <img
+        class="bg-element-svg-img"
+        src="img/bg-pattern-home-3.svg"
+        alt="background pattern"
+      />
     </div>
     <!-- Second section ("Delivering real results") -->
-  
+
     <section class="description">
-      <div class="virsaus_logo">
+      <div class="virsaus_logo"></div>
+      <div class="description-header">
+        <h1>
+          Delivering real results for top companies. Some of our
+          <span class="success-stories">success stories</span>.
+        </h1>
       </div>
-        <div class="description-header">
-          <h1>
-            Delivering real results for top companies. Some of our
-            <span class="success-stories">success stories</span>.
-          </h1>
-        </div>
-  
-        <div class="atsiliepimas">
-          <div class="atsiliepimo_kortele">
-            <div class="atsiliepimai_quotes"></div>
-            <div class="citata">
-              "The team perfectly fit the specialized skill set required. They
-              focused on the most essential features helping us launch the
-              platform eight months faster than planned."
-            </div>
-            <div class="atsiliepimo_kortele">
-              <strong class="atsiliepimo_autorius">Kady Baker</strong>
-              <div class="pareigos">Product Manager at Bookmark</div>
-              <img
-                src="img/avatar-kady.jpg"
-                alt="Kady Baker"
-                class="autoriaus_nuotrauka"
-              />
-            </div>
+
+      <div class="atsiliepimas">
+        <div class="atsiliepimo_kortele">
+          <div class="atsiliepimai_quotes"></div>
+          <div class="citata">
+            "The team perfectly fit the specialized skill set required. They
+            focused on the most essential features helping us launch the
+            platform eight months faster than planned."
           </div>
-  
           <div class="atsiliepimo_kortele">
-            <div class="atsiliepimai_quotes"></div>
-            <div class="citata">
-              "We needed to automate our entire onboarding process. The team came
-              and built out the whole journey. Since going live, user retention
-              has gone through the roof!"
-            </div>
-            <div class="autoriaus_info">
-              <strong class="atsiliepimo_autorius">Alysha Reese</strong>
-              <div class="pareigos">Founder of Manage</div>
-              <img
-                src="img/avatar-aiysha.jpg"
-                alt="Alysha Reese"
-                class="autoriaus_nuotrauka"
-              />
-            </div>
-          </div>
-  
-          <div class="atsiliepimo_kortele">
-            <div class="atsiliepimai_quotes"></div>
-            <div class="citata">
-              "Amazing. Our team helped us build an app that delivered a new
-              experience for hiring a physio. The launch was an instant success
-              with 100k downloads in the first month."
-            </div>
-            <div class="autoriaus_info">
-              <strong class="atsiliepimo_autorius">Arthur Clarke</strong>
-              <div class="pareigos">Co-founder of MyPhysio</div>
-              <img
-                src="img/avatar-arthur.jpg"
-                alt="Arthur Clarke"
-                class="autoriaus_nuotrauka"
-              />
-            </div>
+            <strong class="atsiliepimo_autorius">Kady Baker</strong>
+            <div class="pareigos">Product Manager at Bookmark</div>
+            <img
+              src="img/avatar-kady.jpg"
+              alt="Kady Baker"
+              class="autoriaus_nuotrauka"
+            />
           </div>
         </div>
-        <div class="apacios_logo"></div>
-      
+
+        <div class="atsiliepimo_kortele">
+          <div class="atsiliepimai_quotes"></div>
+          <div class="citata">
+            "We needed to automate our entire onboarding process. The team came
+            and built out the whole journey. Since going live, user retention
+            has gone through the roof!"
+          </div>
+          <div class="autoriaus_info">
+            <strong class="atsiliepimo_autorius">Alysha Reese</strong>
+            <div class="pareigos">Founder of Manage</div>
+            <img
+              src="img/avatar-aiysha.jpg"
+              alt="Alysha Reese"
+              class="autoriaus_nuotrauka"
+            />
+          </div>
+        </div>
+
+        <div class="atsiliepimo_kortele">
+          <div class="atsiliepimai_quotes"></div>
+          <div class="citata">
+            "Amazing. Our team helped us build an app that delivered a new
+            experience for hiring a physio. The launch was an instant success
+            with 100k downloads in the first month."
+          </div>
+          <div class="autoriaus_info">
+            <strong class="atsiliepimo_autorius">Arthur Clarke</strong>
+            <div class="pareigos">Co-founder of MyPhysio</div>
+            <img
+              src="img/avatar-arthur.jpg"
+              alt="Arthur Clarke"
+              class="autoriaus_nuotrauka"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="apacios_logo"></div>
     </section>
-  
+
     <!-- Contact section ("Ready to get started") -->
     <div class="contactcnt">
       <div class="oneline takeittotheleft">
-          <p>Ready to get started?</p>
+        <p>Ready to get started?</p>
       </div>
       <div class="oneline takeittotheright">
-          <a href="contact.html">
-            <button class="btncnt"> contact us</button>
-          </a>
+        <a href="contact.html">
+          <button class="btncnt">contact us</button>
+        </a>
       </div>
-   </div>
+    </div>
     <!-- Footer -->
     <footer>
       <div class="container-position">
        <div> 
-         <div><img class="my-team" src="img/MyTeamIcon.png" alt="My Team" /> 
+         <div class="mobile-my-team-alignment">
+          <img class="my-team" src="img/MyTeamIcon.png" alt="My Team" /> 
          </div>
-         <div class="container-position button-position">
+         <div class="button-position">
            <div>
              <a class="home-button" href="index.html">home</a>
            </div>
@@ -239,14 +228,14 @@
            </div>
          </div>
       </div>
-     <div> 
-       <p class="address">987 Hillcrest Lane </br>
+     <div class="address-box"> 
+       <p class="address"><span class="footer-address-numbers">987</span> Hillcrest Lane </br>
        Irvine, CA</br>
        California 92714</br>
        Call Us : 949-833-7432
        </p>
      </div>
-     <div>
+      <div>
       <div class="social-icon"> 
         <a href="https://www.facebook.com/">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -264,10 +253,10 @@
           </svg>
         </a>
       </div>
-      <div class="copyright">
+      <div class="copyright copyright-box">
         Copyright 2020. All Rights Reserved
-      </div>
      </div>
+    </div>
     </div>
     </footer>
   </body>

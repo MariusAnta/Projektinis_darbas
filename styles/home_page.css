@@ -9,146 +9,151 @@
 }
 
 .hero-section {
+  background-color: #014e56;
+  height: 28.13rem;
+  position: relative;
+  overflow: hidden;
   display: flex;
   flex-wrap: wrap;
-  position: relative;
-  width: 90rem;
-  height: 43.75rem;
-  margin: 0;
-  background-color: #014e56;
-  font-family: "Livvic", sans-serif;
+  justify-content: center;
 }
 
 .container-header {
-  position: absolute;
+  width: 100%;
+  max-width: 69.375rem;
+  height: 12.5rem;
   display: flex;
-  overflow: hidden;
-  align-items: center;
+  flex-direction: row;
   justify-content: space-between;
-  gap: 0.3125rem;
-  background-color: #014e56;
-  top: 15.63rem;
-  right: 10.31rem;
-  bottom: 15.62rem;
-  left: 10.31rem;
 }
+
 /* Big bold text  on your left */
 .left-find-talent {
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  max-width: 39.69rem;
-  height: 12.5rem;
-  top: 15.63rem;
-  right: 10.31rem;
-  bottom: 15.62rem;
-  left: 10.31rem;
+  max-width: 39.6875rem;
 }
 
 .left-find-talent h1 {
-  margin: 0;
-  white-space: normal;
-  text-align: left;
+  color: #fff;
+  font-family: Livvic;
   font-size: 6.25rem;
+  font-style: normal;
   font-weight: 700;
-  line-height: 6.25rem;
-  color: white;
-}
-.left-find-talent h1:first-child {
-  display: inline-block;
-  width: fit-content;
+  line-height: 6.25rem; /* 100% */
 }
 
 .left-find-talent span {
-  font-weight: 700;
-  font-size: 6.25reem;
-  line-height: 6.25rem;
   color: #f67e7e;
 }
 
 /* Right text */
 .right-finding-people {
-  font-weight: 600;
+  max-width: 27.8125rem;
+}
+.right-finding-people p {
+  color: #fff;
+  font-family: Livvic;
+  font-size: 1.125rem;
   font-style: normal;
-  max-width: 27.81rem;
-  padding-top: 4.69rem;
-  display: inline-block;
-  text-align: left;
-  display: flex;
-  flex: 1;
-  top: 20.81rem;
-  right: 10.31rem;
-  bottom: 15.94rem;
-  left: 51.88rem;
-  font-size: 18px;
-  color: #ffffff;
-  line-height: 1.75rem;
+  font-weight: 600;
+  line-height: 1.75rem; /* 155.556% */
+  margin-top: 4.95rem;
 }
 
-/* Graphic header */
-.graphics-container {
-  display: flex;
+.right-find-people-blue-line {
+  width: 3.125rem;
+  height: 0.25rem;
+  background: #79c8c7;
+}
+
+.svg2 {
+  width: 12.5rem;
+  height: 12.5rem;
   position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  pointer-events: none;
+  top: 0rem;
+  left: -6.5rem;
 }
-.graphic {
+
+.svg1 {
   position: absolute;
-}
-.graphic-top-left {
-  top: 15.63rem;
-  right: 83.75rem;
-  bottom: 15.62rem;
-  left: 0;
-}
-.graphic-bottom-right-strips {
-  width: 15.63rem;
-  height: 2.75rem;
-  top: 37.5rem;
-  right: 26.44rem;
-  bottom: 3.5rem;
-  left: 57.31rem;
-  z-index: 1;
-}
-.graphic-grey-bottom-semioval {
-  top: 37.5rem;
-  right: 20.19rem;
   bottom: 0;
-  left: 57.31rem;
-}
-.graphic-black-bottom-behind-red-semioval {
-  top: 37.5rem;
-  right: 16510.31rem;
-  bottom: 0;
-  left: 67.19rem;
-}
-.graphic-red-bottom-semioval {
-  top: 37.5rem;
-  right: 189.49rem;
-  bottom: 6.25rem;
-  left: 65.66rem;
-  z-index: 1;
-}
-
-.graphic-rectangle {
-  flex-shrink: 0;
-  top: 37.5rem;
   right: 10.31rem;
-  bottom: 3.56rem;
-  left: 77rem;
-  width: 2.69rem;
-  height: 2.69rem;
+}
+/* Media for tablet Hero section */
+
+@media screen and (max-width: 1439px) {
+
+  .hero-section {
+    height: 29.75rem;
+  }
+
+  .container-header {
+    flex-direction: column;
+    align-items: center;
+    justify-content: unset;
+    gap: 1.5rem;
+  }
+
+  .left-find-talent {
+    max-width: 42.6875rem;
+  }
+
+  .left-find-talent h1 {
+    color: #fff;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.5rem; /* 87.5% */
+  }
+
+  .right-find-people-blue-line {
+    visibility: hidden;
+  }
+
+  .right-finding-people {
+    max-width: 28.5625rem;
+  }
+
+  .right-finding-people p {
+    color: #fff;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.75rem; /* 186.667% */
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 9.75rem;
+  }
+
+  .svg2 {
+    visibility: hidden;
+  }
+  .svg1 {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%)
+  }
 }
 
-.graphic-minirectangle {
-  top: 15.63rem;
-  right: 35rem;
-  bottom: 27.88rem;
-  left: 51.88rem;
+/* Media for mobile section Hero Phone media query max 767px */
+
+@media screen and (max-width: 767px) {
+
+  .container-header {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    max-width: 20.4375rem;
+  }
+
+  .left-find-talent h1 {
+    font-size: 2.5rem;
+  }
 }
+
 
 /* Build and manage section CSS */
 
@@ -169,7 +174,7 @@
   height: 25.25rem;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .build-left-side {
@@ -208,7 +213,7 @@
 
 .build-right-advance-box {
   max-width: 33.75rem;
-  height: 5.875rem;
+  /* height: 5.875rem; */
   display: flex;
   flex-direction: row;
   gap: 1.44rem;
@@ -254,9 +259,110 @@
   right: -7rem;
   max-width: 12.5rem;
   max-height: 15.25rem;
-  width: 20vw; /* Makes it responsive */
-  height: auto; /* Maintains aspect ratio */
+  /* width: 20vw; Makes it responsive
+  height: auto; Maintains aspect ratio */
 }
+
+/* Tablet media query min 767px and max-width: 1440px*/
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .build-section {
+    height: 44.375rem;
+    padding: 6.25rem 6.12rem 6.25rem 6.06rem;
+  }
+
+  .build-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 35.8125rem;
+  }
+
+  .build-left-red-line {
+    margin-bottom: 2rem;
+  }
+
+  .build-left-title {
+    max-width: 27.8125rem;
+  }
+
+  .build-left-title > h1 {
+    color: #fff;
+    font-family: "Livvic";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2rem;
+  }
+
+  .build-right-side {
+    padding-top: 4rem;
+  }
+
+  .bg-element-svg-img {
+    top: 0.1rem;
+    right: -7rem;
+  }
+}
+
+/* Phone media query max 767px */
+
+@media screen and (max-width: 767px) {
+  .build-section {
+    height: 67.0625rem;
+    padding: 4rem 1.5rem;
+  }
+
+  .build-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 35.8125rem;
+  }
+
+  .build-left-side {
+    max-width: 15rem;
+    max-height: 12.25rem;
+  }
+
+  .build-left-red-line {
+    margin-bottom: 2rem;
+  }
+
+  .build-left-title {
+    max-width: 15rem;
+  }
+
+  .build-left-title > h1 {
+    color: #fff;
+    font-family: "Livvic";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2rem;
+  }
+
+  .build-right-advance-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .build-right-side {
+    padding-top: 3rem;
+  }
+
+  .build-right-info {
+    max-width: 20.4375rem;
+    align-items: center;
+    text-align: center;
+  }
+
+  .bg-element-svg-img {
+    top: 0.1rem;
+    right: -7rem;
+  }
+}
+
 /* footer */
 
 footer {
@@ -316,8 +422,8 @@ footer {
 
 .address {
   width: 27.8125rem;
-  height: 6.25rem;
-  padding-left: 5.4rem;
+  height: 6.25rem; 
+  padding-left: 5.29rem;
   padding-top: 3rem;
   margin: 0;
   color: #fff;
@@ -329,11 +435,17 @@ footer {
   opacity: 0.6;
 }
 
+.footer-address-numbers {
+  margin-right: 0.19rem;
+}
+
 .social-icon {
   display: flex;
   justify-content: right;
   height: 1.5rem;
   padding-left: 17.25rem;
+  padding-right: 6rem;
+  padding-top: 3.86rem;
   padding-right: 10.31rem;
   padding-top: 3.1rem;
   gap: 1rem;
@@ -360,6 +472,110 @@ svg {
 svg:hover {
   fill: #f67e7e;
 }
+
+/* footer adjustment */
+
+@media only screen and (max-width: 1439px) {
+  /*tablet*/
+  .container-position {
+    display: grid;
+    grid-template-columns: 28.69rem auto;
+  }
+
+  footer {
+    height: 16.9375rem;
+  }
+  .my-team {
+    width: 6rem;
+    height: 1.5rem;
+    margin-top: 3.5rem;
+    margin-left: 2.45rem;
+  }
+  .home-button,
+  .about-button {
+    font-size: 0.9375rem;
+    line-height: 1.5625rem;
+  }
+  .button-position {
+    padding-top: 3.106rem;
+    padding-left: 2.46rem;
+    width: 9.6875rem;
+    gap: 1.56rem;
+    padding-bottom: 0rem;
+  }
+  .social-icon {
+    justify-content: left;
+    padding-left: 2.41rem;
+    padding-top: 2.08rem;
+    padding-right: 0rem;
+    padding-bottom: 0rem;
+  }
+  .address {
+    text-align: right;
+    width: 20rem;
+    padding-top: 3.49rem;
+    padding-right: 3.26rem;
+  }
+  .footer-address-numbers {
+    margin-right: 0.25rem;
+  }
+  .copyright {
+    padding-top: 0rem;
+    padding-right: 2.5rem;
+  }
+  .address-box {
+    text-align: -webkit-right;
+  }
+  .copyright-box {
+    width: 100vw;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /*Mobile*/
+  .container-position {
+    grid-template-columns: auto;
+  }
+  footer {
+    height: 27rem;
+  }
+  .mobile-my-team-alignment {
+    text-align-last: center;
+  }
+  .my-team {
+    margin-top: 4.1rem;
+    margin-left: 0rem;
+  }
+  .button-position {
+    text-align: center;
+    padding-left: 0rem;
+    padding-top: 1.29rem;
+    width: auto;
+    justify-content: center;
+  }
+  .address-box {
+    align-content: center;
+    padding-right: 0rem;
+  }
+  .address {
+    padding-top: 1.45rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    width: auto;
+    text-align: -webkit-center;
+    }
+  .social-icon {
+   padding-left: 0rem;
+   padding-right: 0rem;
+   justify-content: center;
+   padding-top: 4.05rem;
+  }
+  .copyright {
+   padding-right: 0rem;
+   text-align: -webkit-center;
+   padding-top: 2.457rem;
+  }
+  }
 
 /* "Ready to get started?" Bar*/
 .contactcnt {
