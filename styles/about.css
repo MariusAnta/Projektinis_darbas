@@ -88,12 +88,11 @@
 }
 
 @media only screen and (max-width: 1439px) {
-
-  .container-some-of-our-clients{
+  .container-some-of-our-clients {
     z-index: -2;
   }
 
-  .clients-title{
+  .clients-title {
     margin-top: 6.25rem;
   }
   .clients-title h2 {
@@ -130,7 +129,7 @@
     width: 3.8125rem;
     height: 1.75rem;
   }
-  .background-logo{
+  .background-logo {
     position: absolute;
     top: -6.3rem;
     z-index: -1;
@@ -141,11 +140,11 @@
   .container-some-of-our-clients {
     height: 39.5rem;
   }
-  .clients-title{
+  .clients-title {
     margin-top: 5.5rem;
   }
 
-  .clients-title h2{
+  .clients-title h2 {
     max-width: 20.4377rem;
   }
   .clients-logos {
@@ -177,10 +176,9 @@
     width: 5.42488rem;
     height: 2.49013rem;
   }
-  .background-logo{
+  .background-logo {
     left: -6.3rem;
   }
-
 }
 
 /* Meet the Directors */
