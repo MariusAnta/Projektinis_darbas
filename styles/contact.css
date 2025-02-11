@@ -7,10 +7,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-
 /* footer */
-
 
 footer {
   background-color: #002529;
@@ -31,7 +28,7 @@ footer {
   gap: 2.6rem;
 }
 
-.home-button {
+.home-button, .about-button {
   text-decoration: none;
   color: #fff;
   font-family: Livvic;
@@ -41,18 +38,8 @@ footer {
   line-height: 1.75rem;
 }
 
- .home-button:hover {
+.home-button:hover {
   color: #f67e7e;
-}
-
-.about-button {
-  text-decoration: none;
-  color: #fff;
-  font-family: Livvic;
-  font-size: 1.125rem;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 1.75rem;
 }
 
 .about-button:hover {
@@ -61,16 +48,14 @@ footer {
 
 .my-team {
   width: 10rem;
-  height: 2rem;
-  height: 2.5rem;
   margin-top: 3rem;
   margin-left: 10.31rem;
 }
 
 .address {
   width: 27.8125rem;
-  height: 6.25rem;
-  padding-left: 4rem;
+  height: 6.25rem; 
+  padding-left: 5.29rem;
   padding-top: 3rem;
   margin: 0;
   color: #fff;
@@ -82,14 +67,20 @@ footer {
   opacity: 0.6;
 }
 
+.footer-address-numbers {
+  margin-right: 0.19rem;
+}
+
 .social-icon {
   display: flex;
-  align-items: center;
+  justify-content: right;
   height: 1.5rem;
   padding-left: 17.25rem;
-  padding-right: 6.31rem;
-  padding-top: 4rem;
+  padding-right: 10.31rem;
+  padding-top: 3.1rem;
   gap: 1rem;
+  position: relative;
+  z-index: 10;
 }
 
 .copyright {
@@ -101,7 +92,7 @@ footer {
   font-weight: 500;
   line-height: 1.5625rem;
   opacity: 0.6;
-  padding-top: 3.8rem;
+  padding-top: 4.55rem;
   padding-right: 10.31rem;
   letter-spacing: 0.01rem;
 }
@@ -113,3 +104,107 @@ svg {
 svg:hover {
   fill: #f67e7e;
 }
+
+/* footer adjustment */
+
+@media only screen and (max-width: 1439px) {
+  /*tablet*/
+  .container-position {
+    display: grid;
+    grid-template-columns: 15rem auto;
+  }
+
+  footer {
+    height: 16.9375rem;
+  }
+  .my-team {
+    width: 6rem;
+    height: 1.5rem;
+    margin-top: 3.5rem;
+    margin-left: 2.45rem;
+  }
+  .home-button,
+  .about-button {
+    font-size: 0.9375rem;
+    line-height: 1.5625rem;
+  }
+  .button-position {
+    padding-top: 3.106rem;
+    padding-left: 2.46rem;
+    width: 9.6875rem;
+    gap: 1.56rem;
+    padding-bottom: 0rem;
+  }
+  .social-icon {
+    justify-content: left;
+    padding-left: 2.41rem;
+    padding-top: 2.08rem;
+    padding-right: 0rem;
+    padding-bottom: 0rem;
+  }
+  .address {
+    text-align: right;
+    width: 20rem;
+    padding-top: 3.49rem;
+    padding-right: 2.56rem;
+  }
+  .footer-address-numbers {
+    margin-right: 0.25rem;
+  }
+  .copyright {
+    padding-top: 0rem;
+    padding-right: 2.5rem;
+  }
+  .address-box {
+    text-align: -webkit-right;
+  }
+  .copyright-box {
+    width: 100vw;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /*Mobile*/
+  .container-position {
+    grid-template-columns: auto;
+  }
+  footer {
+    height: 27rem;
+  }
+  .mobile-my-team-alignment {
+    text-align-last: center;
+  }
+  .my-team {
+    margin-top: 4.1rem;
+    margin-left: 0rem;
+  }
+  .button-position {
+    text-align: center;
+    padding-left: 0rem;
+    padding-top: 1.29rem;
+    width: auto;
+    justify-content: center;
+  }
+  .address-box {
+    align-content: center;
+    padding-right: 0rem;
+  }
+  .address {
+    padding-top: 1.45rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    width: auto;
+    text-align: -webkit-center;
+    }
+  .social-icon {
+   padding-left: 0rem;
+   padding-right: 0rem;
+   justify-content: center;
+   padding-top: 4.05rem;
+  }
+  .copyright {
+   padding-right: 0rem;
+   text-align: -webkit-center;
+   padding-top: 2.457rem;
+  }
+  }
