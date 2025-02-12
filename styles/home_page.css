@@ -81,7 +81,6 @@
 /* Media for tablet Hero section */
 
 @media screen and (max-width: 1439px) {
-
   .hero-section {
     height: 29.75rem;
   }
@@ -135,14 +134,13 @@
     position: absolute;
     bottom: 0;
     left: 50%;
-    transform: translateX(-50%)
+    transform: translateX(-50%);
   }
 }
 
 /* Media for mobile section Hero Phone media query max 767px */
 
 @media screen and (max-width: 767px) {
-
   .container-header {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -153,7 +151,6 @@
     font-size: 2.5rem;
   }
 }
-
 
 /* Build and manage section CSS */
 
@@ -384,7 +381,8 @@ footer {
   gap: 2.6rem;
 }
 
-.home-button, .about-button {
+.home-button,
+.about-button {
   text-decoration: none;
   color: #fff;
   font-family: Livvic;
@@ -410,7 +408,7 @@ footer {
 
 .address {
   width: 27.8125rem;
-  height: 6.25rem; 
+  height: 6.25rem;
   padding-left: 5.29rem;
   padding-top: 3rem;
   margin: 0;
@@ -551,19 +549,19 @@ svg:hover {
     padding-right: 0rem;
     width: auto;
     text-align: -webkit-center;
-    }
+  }
   .social-icon {
-   padding-left: 0rem;
-   padding-right: 0rem;
-   justify-content: center;
-   padding-top: 4.05rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    justify-content: center;
+    padding-top: 4.05rem;
   }
   .copyright {
-   padding-right: 0rem;
-   text-align: -webkit-center;
-   padding-top: 2.457rem;
+    padding-right: 0rem;
+    text-align: -webkit-center;
+    padding-top: 2.457rem;
   }
-  }
+}
 
 /* "Ready to get started?" Bar*/
 .contactcnt {
@@ -619,7 +617,7 @@ svg:hover {
   flex: auto;
 }
 
-@media only screen and (max-width: 1439px){
+@media only screen and (max-width: 1439px) {
   .contactcnt {
     height: 13.5rem;
     background-position: left 125%;
@@ -629,7 +627,7 @@ svg:hover {
   }
 }
 
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 767px) {
   .contactcnt {
     height: 20.875rem;
     flex-direction: column;
@@ -646,7 +644,6 @@ svg:hover {
   .takeittotheright {
     padding-top: 2rem;
   }
-
 }
 /* hero sekcija */
 
@@ -669,6 +666,7 @@ svg:hover {
   font-style: normal;
   font-weight: 700;
   line-height: 3rem;
+  margin-top: 2.25rem;
 }
 
 .success-stories {
