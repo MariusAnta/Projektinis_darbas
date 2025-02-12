@@ -7,6 +7,219 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* Contact table*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px #014E56 inset !important;
+    -webkit-text-fill-color: white !important;
+    -webkit-text-stroke-color: #fff;
+}
+.cnttbl{
+  padding-bottom: 3rem;
+  background-color: #014E56;
+  background-image: url(../img/contact_right.png), url(../img/contact_left.png); 
+  background-repeat: no-repeat, no-repeat;
+  background-position: right bottom, left 15%;
+  display:flex;
+  font-family: "Livvic";
+  color:white;
+}
+/*contact table text*/
+.cnttxt{
+  display: flex;
+  flex-wrap: wrap;
+  width: 33.75rem;
+  border: none;
+  border-bottom: 1px solid white;
+  background-color: transparent;
+  outline: none;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+  color: white;
+  font-size: 1.25rem;
+  font-family: "Livvic";
+  font-weight: bold;
+}
+.cnttxt:hover{
+  border-bottom: 0.063rem solid #79C8C7 ;
+  outline: none;
+}
+/*.cnttxt:invalid{
+  border-bottom: 0.063rem solid #F67E7E;
+  color: #F67E7E;
+  outline: none;
+}*/
+.cntmsg{
+  margin-bottom: 2rem;
+  padding-bottom: 6rem;;
+}
+.badinfo{
+  visibility: hidden;
+  color: #F67E7E;
+}
+.cnttxt:not(:focus):invalid ~ .badinfo{
+  visibility: visible;
+}
+.cnttxt:not(:focus){
+  border-bottom: 0.063rem solid white;
+  color: white;
+  outline: none;
+}
+.cnttxt:invalid:placeholder-shown ~ .badinfo{
+  visibility: hidden;
+}
+
+
+.cnttxt:not(:focus):invalid{
+  border-bottom: 0.063rem solid #F67E7E;
+  color: #F67E7E;
+  outline: none;
+}
+.cnttxt:not(:focus):placeholder-shown{
+  border-bottom: 0.063rem solid white;
+  color: white;
+  outline: none;
+}
+.cntsubmmit:-moz-submit-invalid ~ .badinfo{
+  visibility: visible;
+}
+/*Left side of contact table */
+.cntsegment1{
+  flex:auto;
+  padding-left: 8rem;
+  width: 6.25rem;
+  margin-bottom: 0;
+}
+/*Right side of contact table*/
+.cntsegment2{
+  flex:auto;
+  padding-top: 4rem;
+  padding-bottom: 4rem; 
+  width: 6.25rem;
+
+}
+/* "Contact" header */
+.cnth1{
+  margin-top: 5.333rem;
+  margin-bottom: 0;
+  font-size: 5.333rem;
+  font-weight: 900;
+}
+/* "Ask us about" header*/
+.cnth2{
+  color: #F67E7E;
+  font-size: 2.667rem;
+  font-weight: bolder;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+/* Header position*/
+.cnth1 ,.cnth2{
+  padding-left: 2.5rem
+}
+/* Contact table list*/
+.cntul{
+  font-size: 1.3rem;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: baseline;
+  list-style: none;
+  padding-left: 2rem;
+}
+.cntul> :nth-child(1){
+  background-image:url(../img/icon-person.svg);
+  background-position: left;
+  background-repeat: no-repeat;
+  padding: 1.563rem 1.563rem 1.563rem 6.25rem;
+ 
+}
+.cntul> :nth-child(2){
+  background-image: url(../img/icon-cog.svg) ;
+  background-position: left;
+  background-repeat: no-repeat;
+  padding: 1.563rem 1.563rem 1.563rem 6.25rem;
+}
+.cntul> :nth-child(3){
+  background-image: url(../img/icon-chart.svg);
+  background-position: left;
+  background-repeat: no-repeat;
+  padding: 1.563rem 1.563rem 1.563rem 6.25rem;
+}
+/* Contact table button*/
+.cntbtn{
+  width: 9.5625rem;
+  height: 3rem;
+  flex-shrink: 0;
+  border-radius: 1.5rem;
+  border: 2px solid;
+  font-family: Livvic;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.75rem;
+  background-color: white;
+  color: #002529;
+}
+.cntbtn:hover{
+  background-color: #79C8C7 ;
+}
+
+@media only screen and (max-width: 1439px){
+  .cnttbl{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cntsegment1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50rem;
+    padding: 0;
+  }
+  .cntsegment2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50rem;
+  }
+  
+  .cnth1{
+    justify-content: center;
+  }
+/* "Ask us about" header*/
+  .cnth2{
+    align-items: center;
+  }
+  
+}
+
+@media only screen and (max-width: 767px){
+  .cnttbl{
+    background-image: url(../img/contact_right.png); 
+    background-repeat: no-repeat;
+    background-position: right 110%;
+  }
+
+  .cntsegment1{
+    width: 26.438rem;
+    
+  }
+  .cntsegment2{
+    width: 26.438rem;
+  }
+  .cntul{
+    word-wrap: break-word;
+    width: 25rem;
+  }
+
+}
+/* Contact Table End*/
 /* footer */
 
 footer {

@@ -40,7 +40,32 @@
     </nav>
     </header>
     <!-- Contact page -->
-    <div></div>
+    <div class="cnttbl">
+      <div class="cntsegment1">
+          <p class="cnth1">Contact</p>
+          <p class="cnth2">Ask us about</p>
+          <ul class="cntul">
+              <li>The quality of our talent network</li>
+              <li>Usage & implementation of our software</li>
+              <li>How we help drive innovation</li>
+          </ul>
+      </div>
+      <div class="cntsegment2">
+        <form action="contact.html" class="cntsubmmit">
+          <div><input type="text" name="name" id="name" class="cnttxt" placeholder="Name"  maxlength="30" pattern="^[a-zA-ZĄČĘĖĮŠŲŪŽąčęėįšųūž ]{6,}$" >
+          <section class="badinfo"> This field is required</section></div>
+          <div><input type="email" name="email" id="email" class="cnttxt" placeholder="Email Adress" maxlength="35" pattern="^[a-zA-Z0-9@.,/-_]$" >
+          <section class="badinfo"> This field is required</section></div>
+          <div><input type="text" name="company" id="company" class="cnttxt" placeholder="Company Name" maxlength="30" required >
+          <section class="badinfo"> This field is required</section></div>
+          <div><input type="text" name="title" id="title" class="cnttxt" placeholder="Title"  maxlength="30" pattern="[a-zA-Z ]{2,}" required>
+          <section class="badinfo"> This field is required</section></div>
+          <div><textarea type="textarea" name="msg" id="msg" class="cnttxt cntmsg"  maxlength="150" placeholder="Message"></textarea>
+          <input type="submit" class="cntbtn" value="submit"></div>
+          
+        </form>
+      </div>
+    </div>
     <!-- Footer -->
     <footer>
       <div class="container-position">
