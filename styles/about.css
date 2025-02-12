@@ -550,6 +550,56 @@ svg:hover {
 }
 
 /* hero section */
+.about_dalis {
+  height: 20.31rem;
+  background: var(--midnight-green);
+  position: relative;
+  display: flex;
+}
+ 
+.hero-header {
+  color: #fff;
+  font-family: Livvic;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 6.25rem;
+  margin-left: 10.31rem;
+  padding-top: 3.06rem;
+}
+ 
+.hero-paragraph-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 13.88rem;
+}
+ 
+.hero-about-rectangle {
+  background: url(../img/Rectangle.svg);
+  width: 3.125rem;
+  height: 0.25rem;
+  margin-top: 3.06rem;
+}
+ 
+.hero-about-description {
+  max-width: 45.625rem;
+  color: #fff;
+  font-family: Livvic;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.75rem;
+  margin-top: 2.5rem;
+}
+ 
+.oval-background {
+  background: url(../img/about-hero-oval.svg) no-repeat;
+  width: 12.5rem;
+  height: 12.5rem;
+  position: absolute;
+  bottom: 0;
+  right: -6.3rem;
+}
 
 @media only screen and (max-width: 1339px) {
   .about_dalis {
