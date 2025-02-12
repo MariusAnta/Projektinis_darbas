@@ -68,17 +68,24 @@ input:-webkit-autofill:active {
   color: white;
   outline: none;
 }
-.cnttxt:not(:valid){
-  border-bottom: 0.063rem solid white;
-  color: white;
-  outline: none;
+.cnttxt:invalid:placeholder-shown ~ .badinfo{
+  visibility: hidden;
 }
+
+
 .cnttxt:not(:focus):invalid{
   border-bottom: 0.063rem solid #F67E7E;
   color: #F67E7E;
   outline: none;
 }
-
+.cnttxt:not(:focus):placeholder-shown{
+  border-bottom: 0.063rem solid white;
+  color: white;
+  outline: none;
+}
+.cntsubmmit:-moz-submit-invalid ~ .badinfo{
+  visibility: visible;
+}
 /*Left side of contact table */
 .cntsegment1{
   flex:auto;
