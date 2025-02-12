@@ -718,7 +718,6 @@ svg:hover {
   font-style: normal;
   font-weight: 700;
   line-height: 1.75rem;
-  margin: 1.5rem 0 5px;
 }
 
 .pareigos {
@@ -740,17 +739,18 @@ svg:hover {
 }
 
 .virsaus_logo {
-  background: url(/img/second-section-top-left.svg);
+  background: url(../img/second-section-top-left.svg);
   width: 9.1875rem;
   height: 6.25rem;
 }
 
 .apacios_logo {
-  background: url(/img/second-section-bot-right.svg) no-repeat;
+  background: url(../img/second-section-bot-right.svg) no-repeat;
   width: 12.5rem;
   height: 15.25rem;
   margin-left: auto;
-  margin-top: 5.25rem;
+  margin-right: 0rem;
+  margin-top: 3.5rem;
 }
 
 .atsiliepimai_quotes {
@@ -761,4 +761,45 @@ svg:hover {
   z-index: -1;
   left: 40%;
   top: -2.5rem;
+}
+
+@media only screen and (max-width: 1439px) {
+  .description {
+    height: auto;
+  }
+
+  .description-header {
+    max-width: 35.8125rem;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2rem;
+  }
+
+  .atsiliepimas {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .atsiliepimo_kortele {
+    max-width: 35.8125rem;
+  }
+
+  .atsiliepimai_quotes {
+    left: 44%;
+  }
+  .apacios_logo {
+    margin-bottom: -9rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .description-header,
+  .atsiliepimo_kortele {
+    max-width: 20.4375rem;
+  }
+
+  .atsiliepimai_quotes {
+    left: 40%;
+  }
 }
