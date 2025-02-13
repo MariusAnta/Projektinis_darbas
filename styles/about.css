@@ -550,14 +550,13 @@ svg:hover {
 }
 
 /* hero section */
-
 .about_dalis {
   height: 20.31rem;
   background: var(--midnight-green);
   position: relative;
   display: flex;
 }
-
+ 
 .hero-header {
   color: #fff;
   font-family: Livvic;
@@ -568,20 +567,20 @@ svg:hover {
   margin-left: 10.31rem;
   padding-top: 3.06rem;
 }
-
+ 
 .hero-paragraph-container {
   display: flex;
   flex-direction: column;
   margin-left: 13.88rem;
 }
-
+ 
 .hero-about-rectangle {
-  background: url(/img/Rectangle.svg);
+  background: url(../img/Rectangle.svg);
   width: 3.125rem;
   height: 0.25rem;
   margin-top: 3.06rem;
 }
-
+ 
 .hero-about-description {
   max-width: 45.625rem;
   color: #fff;
@@ -592,13 +591,72 @@ svg:hover {
   line-height: 1.75rem;
   margin-top: 2.5rem;
 }
-
+ 
 .oval-background {
-  background: url(/img/about-hero-oval.svg) no-repeat;
+  background: url(../img/about-hero-oval.svg) no-repeat;
   width: 12.5rem;
   height: 12.5rem;
-  margin-left: auto;
-  margin-right: 0;
-  margin-top: -5.75rem;
-  margin-right: -6.25rem;
+  position: absolute;
+  bottom: 0;
+  right: -6.3rem;
 }
+
+@media only screen and (max-width: 1339px) {
+  .about_dalis {
+    flex-direction: column;
+    align-items: center;
+    height: 22.75rem;
+  }
+ 
+  .hero-about-rectangle {
+    display: none;
+  }
+  .hero-paragraph-container {
+    margin-left: 0;
+  }
+ 
+  .hero-header {
+    margin-top: 2rem;
+    max-width: 42.6875rem;
+    line-height: 3.5rem;
+    margin-left: 0;
+  }
+ 
+  .hero-about-description {
+    max-width: 28.5625rem;
+    margin-top: 1.5rem;
+    font-size: 0.9375rem;
+    z-index: 10;
+  }
+ 
+  .oval-background {
+    z-index: 0;
+  }
+}
+ 
+@media (max-width: 767px) {
+  .about_dalis {
+    height: 30.5rem;
+    z-index: -2;
+  }
+ 
+  .hero-header {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+  }
+ 
+  .hero-about-description {
+    font-size: 0.9375rem;
+    line-height: 1.75rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    text-align: center;
+  }
+ 
+  .oval-background {
+    bottom: -6.3rem;
+    z-index: -1;
+  }
+}
+ 
+ 
