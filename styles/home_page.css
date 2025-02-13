@@ -752,7 +752,7 @@ svg:hover {
 }
 
 .atsiliepimai_quotes {
-  background: url(/img/quotes.svg);
+  background: url(../img/quotes.svg);
   width: 4.1875rem;
   height: 3.5rem;
   position: absolute;
