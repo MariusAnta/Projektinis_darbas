@@ -20,7 +20,9 @@
 
 .container-header {
   width: 100%;
-  max-width: 69.375rem;
+  /* max-width: 69.375rem; */
+  padding-left: 10.3rem;
+  padding-right: 10.3rem;
   height: 12.5rem;
   display: flex;
   flex-direction: row;
@@ -167,7 +169,7 @@
 
 .build-container {
   width: 100%;
-  max-width: 69.375rem;
+  /* max-width: 69.375rem; */
   height: 25.25rem;
   display: flex;
   flex-direction: row;
