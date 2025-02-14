@@ -470,6 +470,7 @@ svg:hover {
 
   footer {
     height: 16.9375rem;
+    position: relative;
   }
   .my-team {
     width: 6rem;
@@ -513,7 +514,9 @@ svg:hover {
     text-align: -webkit-right;
   }
   .copyright-box {
-    width: 100vw;
+    position: absolute;
+    bottom: 3.5rem;
+    right: 0rem;
   }
 }
 
@@ -557,9 +560,10 @@ svg:hover {
     padding-top: 4.05rem;
   }
   .copyright {
-    padding-right: 0rem;
-    text-align: -webkit-center;
-    padding-top: 2.457rem;
+   padding-right: 0rem;
+   text-align: -webkit-center;
+   padding-top: 2.457rem;
+   position: unset;
   }
 }
 
