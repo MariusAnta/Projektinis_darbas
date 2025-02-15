@@ -46,6 +46,7 @@ input:-webkit-autofill:active {
 .cnttxt::placeholder{
   color: white;
   opacity: 0.6;
+  font-weight: normal;
 }
 .cnttxt:hover{
   border-bottom: 0.063rem solid #79C8C7 ;
@@ -109,14 +110,14 @@ input:-webkit-autofill:active {
 .cnth1{
   margin-top: 4rem;
   margin-bottom: 0;
-  font-size: 5.333rem;
+  font-size: 4rem;
   font-weight: 700;
 }
 /* "Ask us about" header*/
 .cnth2{
   color: #F67E7E;
   font-size: 2.667rem;
-  font-weight: bolder;
+  font-weight: 600;
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 1rem;
