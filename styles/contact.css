@@ -43,6 +43,10 @@ input:-webkit-autofill:active {
   font-family: "Livvic";
   font-weight: bold;
 }
+.cnttxt::placeholder{
+  color: white;
+  opacity: 0.6;
+}
 .cnttxt:hover{
   border-bottom: 0.063rem solid #79C8C7 ;
   outline: none;
@@ -103,10 +107,10 @@ input:-webkit-autofill:active {
 }
 /* "Contact" header */
 .cnth1{
-  margin-top: 5.333rem;
+  margin-top: 4rem;
   margin-bottom: 0;
   font-size: 5.333rem;
-  font-weight: 900;
+  font-weight: 700;
 }
 /* "Ask us about" header*/
 .cnth2{
